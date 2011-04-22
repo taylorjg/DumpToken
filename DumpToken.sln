@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DumpToken", "DumpToken\DumpToken.vcproj", "{3E565256-BE02-467C-A581-040381FB850C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestObjectSvr", "TestObjectSvr\TestObjectSvr.vcproj", "{8F5216AC-975E-4717-A99C-EB7648F43686}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestObjectSvrPS", "TestObjectSvr\TestObjectSvrPS.vcproj", "{88409DE6-ED53-4946-B34D-A776F149A98C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8F5216AC-975E-4717-A99C-EB7648F43686} = {8F5216AC-975E-4717-A99C-EB7648F43686}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RotServer", "RotServer\RotServer.vcproj", "{3B90AAFE-50D7-40A7-BAF0-DCDE5BD64A00}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RotClient", "RotClient\RotClient.vcproj", "{4741AAC5-7B9E-4A5C-8B56-37386DDC8528}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug_MultiByte|Win32 = Debug_MultiByte|Win32
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E565256-BE02-467C-A581-040381FB850C}.Debug_MultiByte|Win32.ActiveCfg = Debug_MultiByte|Win32
+		{3E565256-BE02-467C-A581-040381FB850C}.Debug_MultiByte|Win32.Build.0 = Debug_MultiByte|Win32
+		{3E565256-BE02-467C-A581-040381FB850C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3E565256-BE02-467C-A581-040381FB850C}.Debug|Win32.Build.0 = Debug|Win32
+		{3E565256-BE02-467C-A581-040381FB850C}.Release|Win32.ActiveCfg = Release|Win32
+		{3E565256-BE02-467C-A581-040381FB850C}.Release|Win32.Build.0 = Release|Win32
+		{8F5216AC-975E-4717-A99C-EB7648F43686}.Debug_MultiByte|Win32.ActiveCfg = Debug_MultiByte|Win32
+		{8F5216AC-975E-4717-A99C-EB7648F43686}.Debug_MultiByte|Win32.Build.0 = Debug_MultiByte|Win32
+		{8F5216AC-975E-4717-A99C-EB7648F43686}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8F5216AC-975E-4717-A99C-EB7648F43686}.Debug|Win32.Build.0 = Debug|Win32
+		{8F5216AC-975E-4717-A99C-EB7648F43686}.Release|Win32.ActiveCfg = Release|Win32
+		{8F5216AC-975E-4717-A99C-EB7648F43686}.Release|Win32.Build.0 = Release|Win32
+		{88409DE6-ED53-4946-B34D-A776F149A98C}.Debug_MultiByte|Win32.ActiveCfg = Debug_MultiByte|Win32
+		{88409DE6-ED53-4946-B34D-A776F149A98C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{88409DE6-ED53-4946-B34D-A776F149A98C}.Release|Win32.ActiveCfg = Release|Win32
+		{3B90AAFE-50D7-40A7-BAF0-DCDE5BD64A00}.Debug_MultiByte|Win32.ActiveCfg = Debug_MultiByte|Win32
+		{3B90AAFE-50D7-40A7-BAF0-DCDE5BD64A00}.Debug_MultiByte|Win32.Build.0 = Debug_MultiByte|Win32
+		{3B90AAFE-50D7-40A7-BAF0-DCDE5BD64A00}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3B90AAFE-50D7-40A7-BAF0-DCDE5BD64A00}.Debug|Win32.Build.0 = Debug|Win32
+		{3B90AAFE-50D7-40A7-BAF0-DCDE5BD64A00}.Release|Win32.ActiveCfg = Release|Win32
+		{3B90AAFE-50D7-40A7-BAF0-DCDE5BD64A00}.Release|Win32.Build.0 = Release|Win32
+		{4741AAC5-7B9E-4A5C-8B56-37386DDC8528}.Debug_MultiByte|Win32.ActiveCfg = Debug_MultiByte|Win32
+		{4741AAC5-7B9E-4A5C-8B56-37386DDC8528}.Debug_MultiByte|Win32.Build.0 = Debug_MultiByte|Win32
+		{4741AAC5-7B9E-4A5C-8B56-37386DDC8528}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4741AAC5-7B9E-4A5C-8B56-37386DDC8528}.Debug|Win32.Build.0 = Debug|Win32
+		{4741AAC5-7B9E-4A5C-8B56-37386DDC8528}.Release|Win32.ActiveCfg = Release|Win32
+		{4741AAC5-7B9E-4A5C-8B56-37386DDC8528}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

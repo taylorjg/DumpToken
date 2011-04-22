@@ -1,0 +1,12 @@
+*.ncb
+*.suo
+
+Debug/*
+Release/*
+
+*/*.vcproj.*.user
+*/*.aps
+
+*/Debug/*
+*/Release/*
+

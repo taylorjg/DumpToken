@@ -1,0 +1,12 @@
+Proxy object security settings before calling CoSetProxyBlanket():
+Authentication Service: RPC_C_AUTHN_WINNT (10)
+Authorization Service: RPC_C_AUTHZ_NONE (0)
+Authorization Level: RPC_C_AUTHN_LEVEL_PKT_PRIVACY (6)
+Impersonation Level: RPC_C_IMP_LEVEL_IDENTIFY (2)
+Capabilities: EOAC_MUTUAL_AUTH (1)
+Proxy object security settings after calling CoSetProxyBlanket():
+Authentication Service: RPC_C_AUTHN_WINNT (10)
+Authorization Service: RPC_C_AUTHZ_NONE (0)
+Authorization Level: RPC_C_AUTHN_LEVEL_PKT_PRIVACY (6)
+Impersonation Level: RPC_C_IMP_LEVEL_DELEGATE (4)
+Capabilities: EOAC_NONE (0)

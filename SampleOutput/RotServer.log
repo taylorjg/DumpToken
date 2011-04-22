@@ -1,0 +1,2306 @@
+TOKEN_USER.User
+	Sid: S-1-5-21-901191611-3409462790-1665155486-1000
+	Sid: JonEnfusion\Jon (SidTypeUser)
+	Attributes:  (0x00000000)
+
+TOKEN_GROUPS.GroupCount: 11
+TOKEN_GROUPS.Group[0]
+	Sid: S-1-5-21-901191611-3409462790-1665155486-513
+	Sid: JonEnfusion\None (SidTypeGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS.Group[1]
+	Sid: S-1-1-0
+	Sid: Everyone (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS.Group[2]
+	Sid: S-1-5-32-544
+	Sid: BUILTIN\Administrators (SidTypeAlias)
+	Attributes: SE_GROUP_USE_FOR_DENY_ONLY (0x00000010)
+TOKEN_GROUPS.Group[3]
+	Sid: S-1-5-32-545
+	Sid: BUILTIN\Users (SidTypeAlias)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS.Group[4]
+	Sid: S-1-5-4
+	Sid: NT AUTHORITY\INTERACTIVE (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS.Group[5]
+	Sid: S-1-5-11
+	Sid: NT AUTHORITY\Authenticated Users (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS.Group[6]
+	Sid: S-1-5-15
+	Sid: NT AUTHORITY\This Organization (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS.Group[7]
+	Sid: S-1-5-5-0-523839710
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED | SE_GROUP_LOGON_ID (0xC0000007)
+TOKEN_GROUPS.Group[8]
+	Sid: S-1-2-0
+	Sid: LOCAL (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS.Group[9]
+	Sid: S-1-5-64-10
+	Sid: NT AUTHORITY\NTLM Authentication (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS.Group[10]
+	Sid: S-1-16-8192
+	Sid: Mandatory Label\Medium Mandatory Level (SidTypeLabel)
+	Attributes: SE_GROUP_INTEGRITY | SE_GROUP_INTEGRITY_ENABLED (0x00000060)
+
+TOKEN_PRIVILEGES.PrivilegeCount: 5
+TOKEN_PRIVILEGES.Privileges[0].Luid: "Shut down the system" 19 (0x00000013), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[0].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[1].Luid: "Bypass traverse checking" 23 (0x00000017), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[1].Attributes: SE_PRIVILEGE_ENABLED_BY_DEFAULT | SE_PRIVILEGE_ENABLED (0x00000003)
+TOKEN_PRIVILEGES.Privileges[2].Luid: "Remove computer from docking station" 25 (0x00000019), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[2].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[3].Luid: "Increase a process working set" 33 (0x00000021), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[3].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[4].Luid: "Change the time zone" 34 (0x00000022), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[4].Attributes:  (0x00000000)
+
+TOKEN_OWNER.Owner
+	Sid: S-1-5-21-901191611-3409462790-1665155486-1000
+	Sid: JonEnfusion\Jon (SidTypeUser)
+
+TOKEN_PRIMARY_GROUP.PrimaryGroup
+	Sid: S-1-5-21-901191611-3409462790-1665155486-513
+	Sid: JonEnfusion\None (SidTypeGroup)
+
+TOKEN_DEFAULT_DACL
+	ACE[0].grfAccessPermissions: GENERIC_ALL (0x10000000)
+	ACE[0].grfAccessMode: GRANT_ACCESS (0x00000001)
+	ACE[0].grfInheritance:  (0x00000000)
+	ACE[0].Trustee.MultipleTrusteeOperation: NO_MULTIPLE_TRUSTEE (0x00000000)
+	ACE[0].Trustee.TrusteeForm: TRUSTEE_IS_SID (0x00000000)
+	ACE[0].Trustee.TrusteeType: TRUSTEE_IS_UNKNOWN (0x00000000)
+	Trustee.ptstrName
+	Sid: S-1-5-21-901191611-3409462790-1665155486-1000
+	Sid: JonEnfusion\Jon (SidTypeUser)
+
+	ACE[1].grfAccessPermissions: GENERIC_ALL (0x10000000)
+	ACE[1].grfAccessMode: GRANT_ACCESS (0x00000001)
+	ACE[1].grfInheritance:  (0x00000000)
+	ACE[1].Trustee.MultipleTrusteeOperation: NO_MULTIPLE_TRUSTEE (0x00000000)
+	ACE[1].Trustee.TrusteeForm: TRUSTEE_IS_SID (0x00000000)
+	ACE[1].Trustee.TrusteeType: TRUSTEE_IS_UNKNOWN (0x00000000)
+	Trustee.ptstrName
+	Sid: S-1-5-18
+	Sid: NT AUTHORITY\SYSTEM (SidTypeWellKnownGroup)
+
+	ACE[2].grfAccessPermissions: GENERIC_EXECUTE | GENERIC_READ (0xA0000000)
+	ACE[2].grfAccessMode: GRANT_ACCESS (0x00000001)
+	ACE[2].grfInheritance:  (0x00000000)
+	ACE[2].Trustee.MultipleTrusteeOperation: NO_MULTIPLE_TRUSTEE (0x00000000)
+	ACE[2].Trustee.TrusteeForm: TRUSTEE_IS_SID (0x00000000)
+	ACE[2].Trustee.TrusteeType: TRUSTEE_IS_UNKNOWN (0x00000000)
+	Trustee.ptstrName
+	Sid: S-1-5-5-0-523839710
+
+TOKEN_DEFAULT_DACL
+	ACE[0].Header.AceType: ACCESS_ALLOWED_ACE_TYPE (0)
+	ACE[0].Header.AceFlags:  (0x00000000)
+	ACE[0].Header.AceSize: 36 (0x00000024)
+	ACE[0].Mask: GENERIC_ALL (0x10000000)
+	ACE[0].Sid
+	Sid: S-1-5-21-901191611-3409462790-1665155486-1000
+	Sid: JonEnfusion\Jon (SidTypeUser)
+
+	ACE[1].Header.AceType: ACCESS_ALLOWED_ACE_TYPE (0)
+	ACE[1].Header.AceFlags:  (0x00000000)
+	ACE[1].Header.AceSize: 20 (0x00000014)
+	ACE[1].Mask: GENERIC_ALL (0x10000000)
+	ACE[1].Sid
+	Sid: S-1-5-18
+	Sid: NT AUTHORITY\SYSTEM (SidTypeWellKnownGroup)
+
+	ACE[2].Header.AceType: ACCESS_ALLOWED_ACE_TYPE (0)
+	ACE[2].Header.AceFlags:  (0x00000000)
+	ACE[2].Header.AceSize: 28 (0x0000001C)
+	ACE[2].Mask: GENERIC_EXECUTE | GENERIC_READ (0xA0000000)
+	ACE[2].Sid
+	Sid: S-1-5-5-0-523839710
+
+
+TOKEN_SOURCE.SourceName: "User32 "
+TOKEN_SOURCE.SourceIdentifier.LowPart: 523839840 (0x1F392960)
+TOKEN_SOURCE.SourceIdentifier.HighPart: 0 (0x00000000)
+
+TOKEN_TYPE: TokenPrimary
+
+TOKEN_STATISTICS.TokenId.LowPart: 1537807645 (0x5BA9151D)
+TOKEN_STATISTICS.TokenId.HighPart: 0 (0x00000000)
+TOKEN_STATISTICS.AuthenticationId.LowPart: 523840151 (0x1F392A97)
+TOKEN_STATISTICS.AuthenticationId.HighPart: 0 (0x00000000)
+TOKEN_STATISTICS.ExpirationTime.LowPart: -1 (0xFFFFFFFF)
+TOKEN_STATISTICS.ExpirationTime.HighPart: 2147483647 (0x7FFFFFFF)
+TOKEN_STATISTICS.TokenType: TokenPrimary
+TOKEN_STATISTICS.ImpersonationLevel: SecurityAnonymous
+TOKEN_STATISTICS.DynamicCharged: 1024 (0x002DFB9C)
+TOKEN_STATISTICS.DynamicAvailable: 904 (0x002DFB9C)
+TOKEN_STATISTICS.GroupCount: 11
+TOKEN_STATISTICS.PrivilegeCount: 5
+TOKEN_STATISTICS.ModifiedId.LowPart: 1131724700 (0x4374BF9C)
+TOKEN_STATISTICS.ModifiedId.HighPart: 0 (0x00000000)
+
+TokenRestrictedSids.GroupCount: 0
+
+TokenSessionId: 8 (0x00000008)
+
+TOKEN_GROUPS_AND_PRIVILEGES.SidCount: 12
+TOKEN_GROUPS_AND_PRIVILEGES.SidLength: 292
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[0]
+	Sid: S-1-5-21-901191611-3409462790-1665155486-1000
+	Sid: JonEnfusion\Jon (SidTypeUser)
+	Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[1]
+	Sid: S-1-5-21-901191611-3409462790-1665155486-513
+	Sid: JonEnfusion\None (SidTypeGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[2]
+	Sid: S-1-1-0
+	Sid: Everyone (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[3]
+	Sid: S-1-5-32-544
+	Sid: BUILTIN\Administrators (SidTypeAlias)
+	Attributes: SE_GROUP_USE_FOR_DENY_ONLY (0x00000010)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[4]
+	Sid: S-1-5-32-545
+	Sid: BUILTIN\Users (SidTypeAlias)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[5]
+	Sid: S-1-5-4
+	Sid: NT AUTHORITY\INTERACTIVE (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[6]
+	Sid: S-1-5-11
+	Sid: NT AUTHORITY\Authenticated Users (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[7]
+	Sid: S-1-5-15
+	Sid: NT AUTHORITY\This Organization (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[8]
+	Sid: S-1-5-5-0-523839710
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED | SE_GROUP_LOGON_ID (0xC0000007)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[9]
+	Sid: S-1-2-0
+	Sid: LOCAL (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[10]
+	Sid: S-1-5-64-10
+	Sid: NT AUTHORITY\NTLM Authentication (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[11]
+	Sid: S-1-16-8192
+	Sid: Mandatory Label\Medium Mandatory Level (SidTypeLabel)
+	Attributes: SE_GROUP_INTEGRITY | SE_GROUP_INTEGRITY_ENABLED (0x00000060)
+TOKEN_GROUPS_AND_PRIVILEGES.RestrictedSidCount: 0
+TOKEN_GROUPS_AND_PRIVILEGES.RestrictedSidLength: 0
+TOKEN_GROUPS_AND_PRIVILEGES.PrivilegeCount: 5
+TOKEN_GROUPS_AND_PRIVILEGES.PrivilegeLength: 60
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[0].Luid: "Shut down the system" 19 (0x00000013), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[0].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[1].Luid: "Bypass traverse checking" 23 (0x00000017), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[1].Attributes: SE_PRIVILEGE_ENABLED_BY_DEFAULT | SE_PRIVILEGE_ENABLED (0x00000003)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[2].Luid: "Remove computer from docking station" 25 (0x00000019), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[2].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[3].Luid: "Increase a process working set" 33 (0x00000021), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[3].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[4].Luid: "Change the time zone" 34 (0x00000022), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[4].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.AuthenticationId.LowPart: 523840151 (0x1F392A97)
+TOKEN_GROUPS_AND_PRIVILEGES.AuthenticationId.HighPart: 0 (0x00000000)
+
+TokenSandBoxInert: 0 (0x00000000)
+
+TOKEN_ORIGIN.OriginatingLogonSession.LowPart: 999 (0x000003E7)
+TOKEN_ORIGIN.OriginatingLogonSession.HighPart: 0 (0x00000000)
+
+TOKEN_ELEVATION_TYPE: TokenElevationTypeLimited
+
+******************** TOKEN_LINKED_TOKEN.LinkedToken (start) ********************
+TOKEN_USER.User
+	Sid: S-1-5-21-901191611-3409462790-1665155486-1000
+	Sid: JonEnfusion\Jon (SidTypeUser)
+	Attributes:  (0x00000000)
+
+TOKEN_GROUPS.GroupCount: 11
+TOKEN_GROUPS.Group[0]
+	Sid: S-1-5-21-901191611-3409462790-1665155486-513
+	Sid: JonEnfusion\None (SidTypeGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS.Group[1]
+	Sid: S-1-1-0
+	Sid: Everyone (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS.Group[2]
+	Sid: S-1-5-32-544
+	Sid: BUILTIN\Administrators (SidTypeAlias)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED | SE_GROUP_OWNER (0x0000000F)
+TOKEN_GROUPS.Group[3]
+	Sid: S-1-5-32-545
+	Sid: BUILTIN\Users (SidTypeAlias)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS.Group[4]
+	Sid: S-1-5-4
+	Sid: NT AUTHORITY\INTERACTIVE (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS.Group[5]
+	Sid: S-1-5-11
+	Sid: NT AUTHORITY\Authenticated Users (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS.Group[6]
+	Sid: S-1-5-15
+	Sid: NT AUTHORITY\This Organization (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS.Group[7]
+	Sid: S-1-5-5-0-523839710
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED | SE_GROUP_LOGON_ID (0xC0000007)
+TOKEN_GROUPS.Group[8]
+	Sid: S-1-2-0
+	Sid: LOCAL (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS.Group[9]
+	Sid: S-1-5-64-10
+	Sid: NT AUTHORITY\NTLM Authentication (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS.Group[10]
+	Sid: S-1-16-12288
+	Sid: Mandatory Label\High Mandatory Level (SidTypeLabel)
+	Attributes: SE_GROUP_INTEGRITY | SE_GROUP_INTEGRITY_ENABLED (0x00000060)
+
+TOKEN_PRIVILEGES.PrivilegeCount: 23
+TOKEN_PRIVILEGES.Privileges[0].Luid: "Adjust memory quotas for a process" 5 (0x00000005), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[0].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[1].Luid: "Manage auditing and security log" 8 (0x00000008), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[1].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[2].Luid: "Take ownership of files or other objects" 9 (0x00000009), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[2].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[3].Luid: "Load and unload device drivers" 10 (0x0000000A), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[3].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[4].Luid: "Profile system performance" 11 (0x0000000B), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[4].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[5].Luid: "Change the system time" 12 (0x0000000C), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[5].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[6].Luid: "Profile single process" 13 (0x0000000D), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[6].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[7].Luid: "Increase scheduling priority" 14 (0x0000000E), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[7].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[8].Luid: "Create a pagefile" 15 (0x0000000F), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[8].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[9].Luid: "Back up files and directories" 17 (0x00000011), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[9].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[10].Luid: "Restore files and directories" 18 (0x00000012), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[10].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[11].Luid: "Shut down the system" 19 (0x00000013), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[11].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[12].Luid: "Debug programs" 20 (0x00000014), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[12].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[13].Luid: "Modify firmware environment values" 22 (0x00000016), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[13].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[14].Luid: "Bypass traverse checking" 23 (0x00000017), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[14].Attributes: SE_PRIVILEGE_ENABLED_BY_DEFAULT | SE_PRIVILEGE_ENABLED (0x00000003)
+TOKEN_PRIVILEGES.Privileges[15].Luid: "Force shutdown from a remote system" 24 (0x00000018), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[15].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[16].Luid: "Remove computer from docking station" 25 (0x00000019), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[16].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[17].Luid: "Perform volume maintenance tasks" 28 (0x0000001C), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[17].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[18].Luid: "Impersonate a client after authentication" 29 (0x0000001D), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[18].Attributes: SE_PRIVILEGE_ENABLED_BY_DEFAULT | SE_PRIVILEGE_ENABLED (0x00000003)
+TOKEN_PRIVILEGES.Privileges[19].Luid: "Create global objects" 30 (0x0000001E), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[19].Attributes: SE_PRIVILEGE_ENABLED_BY_DEFAULT | SE_PRIVILEGE_ENABLED (0x00000003)
+TOKEN_PRIVILEGES.Privileges[20].Luid: "Increase a process working set" 33 (0x00000021), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[20].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[21].Luid: "Change the time zone" 34 (0x00000022), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[21].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[22].Luid: "Create symbolic links" 35 (0x00000023), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[22].Attributes:  (0x00000000)
+
+TOKEN_OWNER.Owner
+	Sid: S-1-5-32-544
+	Sid: BUILTIN\Administrators (SidTypeAlias)
+
+TOKEN_PRIMARY_GROUP.PrimaryGroup
+	Sid: S-1-5-21-901191611-3409462790-1665155486-513
+	Sid: JonEnfusion\None (SidTypeGroup)
+
+TOKEN_DEFAULT_DACL
+	ACE[0].grfAccessPermissions: GENERIC_ALL (0x10000000)
+	ACE[0].grfAccessMode: GRANT_ACCESS (0x00000001)
+	ACE[0].grfInheritance:  (0x00000000)
+	ACE[0].Trustee.MultipleTrusteeOperation: NO_MULTIPLE_TRUSTEE (0x00000000)
+	ACE[0].Trustee.TrusteeForm: TRUSTEE_IS_SID (0x00000000)
+	ACE[0].Trustee.TrusteeType: TRUSTEE_IS_UNKNOWN (0x00000000)
+	Trustee.ptstrName
+	Sid: S-1-5-32-544
+	Sid: BUILTIN\Administrators (SidTypeAlias)
+
+	ACE[1].grfAccessPermissions: GENERIC_ALL (0x10000000)
+	ACE[1].grfAccessMode: GRANT_ACCESS (0x00000001)
+	ACE[1].grfInheritance:  (0x00000000)
+	ACE[1].Trustee.MultipleTrusteeOperation: NO_MULTIPLE_TRUSTEE (0x00000000)
+	ACE[1].Trustee.TrusteeForm: TRUSTEE_IS_SID (0x00000000)
+	ACE[1].Trustee.TrusteeType: TRUSTEE_IS_UNKNOWN (0x00000000)
+	Trustee.ptstrName
+	Sid: S-1-5-18
+	Sid: NT AUTHORITY\SYSTEM (SidTypeWellKnownGroup)
+
+	ACE[2].grfAccessPermissions: GENERIC_EXECUTE | GENERIC_READ (0xA0000000)
+	ACE[2].grfAccessMode: GRANT_ACCESS (0x00000001)
+	ACE[2].grfInheritance:  (0x00000000)
+	ACE[2].Trustee.MultipleTrusteeOperation: NO_MULTIPLE_TRUSTEE (0x00000000)
+	ACE[2].Trustee.TrusteeForm: TRUSTEE_IS_SID (0x00000000)
+	ACE[2].Trustee.TrusteeType: TRUSTEE_IS_UNKNOWN (0x00000000)
+	Trustee.ptstrName
+	Sid: S-1-5-5-0-523839710
+
+TOKEN_DEFAULT_DACL
+	ACE[0].Header.AceType: ACCESS_ALLOWED_ACE_TYPE (0)
+	ACE[0].Header.AceFlags:  (0x00000000)
+	ACE[0].Header.AceSize: 24 (0x00000018)
+	ACE[0].Mask: GENERIC_ALL (0x10000000)
+	ACE[0].Sid
+	Sid: S-1-5-32-544
+	Sid: BUILTIN\Administrators (SidTypeAlias)
+
+	ACE[1].Header.AceType: ACCESS_ALLOWED_ACE_TYPE (0)
+	ACE[1].Header.AceFlags:  (0x00000000)
+	ACE[1].Header.AceSize: 20 (0x00000014)
+	ACE[1].Mask: GENERIC_ALL (0x10000000)
+	ACE[1].Sid
+	Sid: S-1-5-18
+	Sid: NT AUTHORITY\SYSTEM (SidTypeWellKnownGroup)
+
+	ACE[2].Header.AceType: ACCESS_ALLOWED_ACE_TYPE (0)
+	ACE[2].Header.AceFlags:  (0x00000000)
+	ACE[2].Header.AceSize: 28 (0x0000001C)
+	ACE[2].Mask: GENERIC_EXECUTE | GENERIC_READ (0xA0000000)
+	ACE[2].Sid
+	Sid: S-1-5-5-0-523839710
+
+
+TOKEN_SOURCE.SourceName: "User32 "
+TOKEN_SOURCE.SourceIdentifier.LowPart: 523839840 (0x1F392960)
+TOKEN_SOURCE.SourceIdentifier.HighPart: 0 (0x00000000)
+
+TOKEN_TYPE: TokenImpersonation
+
+SECURITY_IMPERSONATION_LEVEL: SecurityIdentification
+
+TOKEN_STATISTICS.TokenId.LowPart: 1537810094 (0x5BA91EAE)
+TOKEN_STATISTICS.TokenId.HighPart: 0 (0x00000000)
+TOKEN_STATISTICS.AuthenticationId.LowPart: 523840056 (0x1F392A38)
+TOKEN_STATISTICS.AuthenticationId.HighPart: 0 (0x00000000)
+TOKEN_STATISTICS.ExpirationTime.LowPart: -1 (0xFFFFFFFF)
+TOKEN_STATISTICS.ExpirationTime.HighPart: 2147483647 (0x7FFFFFFF)
+TOKEN_STATISTICS.TokenType: TokenImpersonation
+TOKEN_STATISTICS.ImpersonationLevel: SecurityIdentification
+TOKEN_STATISTICS.DynamicCharged: 1024 (0x002DF6A4)
+TOKEN_STATISTICS.DynamicAvailable: 916 (0x002DF6A4)
+TOKEN_STATISTICS.GroupCount: 11
+TOKEN_STATISTICS.PrivilegeCount: 23
+TOKEN_STATISTICS.ModifiedId.LowPart: 523840150 (0x1F392A96)
+TOKEN_STATISTICS.ModifiedId.HighPart: 0 (0x00000000)
+
+TokenRestrictedSids.GroupCount: 0
+
+TokenSessionId: 8 (0x00000008)
+
+TOKEN_GROUPS_AND_PRIVILEGES.SidCount: 12
+TOKEN_GROUPS_AND_PRIVILEGES.SidLength: 292
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[0]
+	Sid: S-1-5-21-901191611-3409462790-1665155486-1000
+	Sid: JonEnfusion\Jon (SidTypeUser)
+	Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[1]
+	Sid: S-1-5-21-901191611-3409462790-1665155486-513
+	Sid: JonEnfusion\None (SidTypeGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[2]
+	Sid: S-1-1-0
+	Sid: Everyone (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[3]
+	Sid: S-1-5-32-544
+	Sid: BUILTIN\Administrators (SidTypeAlias)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED | SE_GROUP_OWNER (0x0000000F)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[4]
+	Sid: S-1-5-32-545
+	Sid: BUILTIN\Users (SidTypeAlias)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[5]
+	Sid: S-1-5-4
+	Sid: NT AUTHORITY\INTERACTIVE (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[6]
+	Sid: S-1-5-11
+	Sid: NT AUTHORITY\Authenticated Users (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[7]
+	Sid: S-1-5-15
+	Sid: NT AUTHORITY\This Organization (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[8]
+	Sid: S-1-5-5-0-523839710
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED | SE_GROUP_LOGON_ID (0xC0000007)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[9]
+	Sid: S-1-2-0
+	Sid: LOCAL (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[10]
+	Sid: S-1-5-64-10
+	Sid: NT AUTHORITY\NTLM Authentication (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[11]
+	Sid: S-1-16-12288
+	Sid: Mandatory Label\High Mandatory Level (SidTypeLabel)
+	Attributes: SE_GROUP_INTEGRITY | SE_GROUP_INTEGRITY_ENABLED (0x00000060)
+TOKEN_GROUPS_AND_PRIVILEGES.RestrictedSidCount: 0
+TOKEN_GROUPS_AND_PRIVILEGES.RestrictedSidLength: 0
+TOKEN_GROUPS_AND_PRIVILEGES.PrivilegeCount: 23
+TOKEN_GROUPS_AND_PRIVILEGES.PrivilegeLength: 276
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[0].Luid: "Adjust memory quotas for a process" 5 (0x00000005), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[0].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[1].Luid: "Manage auditing and security log" 8 (0x00000008), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[1].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[2].Luid: "Take ownership of files or other objects" 9 (0x00000009), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[2].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[3].Luid: "Load and unload device drivers" 10 (0x0000000A), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[3].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[4].Luid: "Profile system performance" 11 (0x0000000B), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[4].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[5].Luid: "Change the system time" 12 (0x0000000C), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[5].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[6].Luid: "Profile single process" 13 (0x0000000D), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[6].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[7].Luid: "Increase scheduling priority" 14 (0x0000000E), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[7].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[8].Luid: "Create a pagefile" 15 (0x0000000F), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[8].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[9].Luid: "Back up files and directories" 17 (0x00000011), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[9].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[10].Luid: "Restore files and directories" 18 (0x00000012), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[10].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[11].Luid: "Shut down the system" 19 (0x00000013), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[11].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[12].Luid: "Debug programs" 20 (0x00000014), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[12].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[13].Luid: "Modify firmware environment values" 22 (0x00000016), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[13].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[14].Luid: "Bypass traverse checking" 23 (0x00000017), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[14].Attributes: SE_PRIVILEGE_ENABLED_BY_DEFAULT | SE_PRIVILEGE_ENABLED (0x00000003)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[15].Luid: "Force shutdown from a remote system" 24 (0x00000018), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[15].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[16].Luid: "Remove computer from docking station" 25 (0x00000019), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[16].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[17].Luid: "Perform volume maintenance tasks" 28 (0x0000001C), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[17].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[18].Luid: "Impersonate a client after authentication" 29 (0x0000001D), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[18].Attributes: SE_PRIVILEGE_ENABLED_BY_DEFAULT | SE_PRIVILEGE_ENABLED (0x00000003)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[19].Luid: "Create global objects" 30 (0x0000001E), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[19].Attributes: SE_PRIVILEGE_ENABLED_BY_DEFAULT | SE_PRIVILEGE_ENABLED (0x00000003)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[20].Luid: "Increase a process working set" 33 (0x00000021), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[20].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[21].Luid: "Change the time zone" 34 (0x00000022), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[21].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[22].Luid: "Create symbolic links" 35 (0x00000023), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[22].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.AuthenticationId.LowPart: 523840056 (0x1F392A38)
+TOKEN_GROUPS_AND_PRIVILEGES.AuthenticationId.HighPart: 0 (0x00000000)
+
+TokenSandBoxInert: 0 (0x00000000)
+
+TOKEN_ORIGIN.OriginatingLogonSession.LowPart: 999 (0x000003E7)
+TOKEN_ORIGIN.OriginatingLogonSession.HighPart: 0 (0x00000000)
+
+TOKEN_ELEVATION_TYPE: TokenElevationTypeFull
+
+TOKEN_ELEVATION.TokenIsElevated: 1
+
+TokenHasRestrictions: 0
+
+TOKEN_ACCESS_INFORMATION.SidHash
+	SidCount: 12
+	SidAttr[0]
+	Sid: S-1-5-21-901191611-3409462790-1665155486-1000
+	Sid: JonEnfusion\Jon (SidTypeUser)
+	Attributes:  (0x00000000)
+	SidAttr[1]
+	Sid: S-1-5-21-901191611-3409462790-1665155486-513
+	Sid: JonEnfusion\None (SidTypeGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+	SidAttr[2]
+	Sid: S-1-1-0
+	Sid: Everyone (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+	SidAttr[3]
+	Sid: S-1-5-32-544
+	Sid: BUILTIN\Administrators (SidTypeAlias)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED | SE_GROUP_OWNER (0x0000000F)
+	SidAttr[4]
+	Sid: S-1-5-32-545
+	Sid: BUILTIN\Users (SidTypeAlias)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+	SidAttr[5]
+	Sid: S-1-5-4
+	Sid: NT AUTHORITY\INTERACTIVE (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+	SidAttr[6]
+	Sid: S-1-5-11
+	Sid: NT AUTHORITY\Authenticated Users (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+	SidAttr[7]
+	Sid: S-1-5-15
+	Sid: NT AUTHORITY\This Organization (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+	SidAttr[8]
+	Sid: S-1-5-5-0-523839710
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED | SE_GROUP_LOGON_ID (0xC0000007)
+	SidAttr[9]
+	Sid: S-1-2-0
+	Sid: LOCAL (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+	SidAttr[10]
+	Sid: S-1-5-64-10
+	Sid: NT AUTHORITY\NTLM Authentication (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+	SidAttr[11]
+	Sid: S-1-16-12288
+	Sid: Mandatory Label\High Mandatory Level (SidTypeLabel)
+	Attributes: SE_GROUP_INTEGRITY | SE_GROUP_INTEGRITY_ENABLED (0x00000060)
+	Hash[0]: 2572 (0x00000A0C)
+	Hash[1]: 18 (0x00000012)
+	Hash[2]: 0 (0x00000000)
+	Hash[3]: 0 (0x00000000)
+	Hash[4]: 32 (0x00000020)
+	Hash[5]: 0 (0x00000000)
+	Hash[6]: 0 (0x00000000)
+	Hash[7]: 0 (0x00000000)
+	Hash[8]: 1 (0x00000001)
+	Hash[9]: 0 (0x00000000)
+	Hash[10]: 1024 (0x00000400)
+	Hash[11]: 64 (0x00000040)
+TOKEN_ACCESS_INFORMATION.RestrictedSidHash
+	SidCount: 0
+TOKEN_ACCESS_INFORMATION.Privileges.PrivilegeCount: 23
+TOKEN_ACCESS_INFORMATION.Privileges[0].Luid: "Adjust memory quotas for a process"
+TOKEN_ACCESS_INFORMATION.Privileges[0].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[1].Luid: "Manage auditing and security log"
+TOKEN_ACCESS_INFORMATION.Privileges[1].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[2].Luid: "Take ownership of files or other objects"
+TOKEN_ACCESS_INFORMATION.Privileges[2].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[3].Luid: "Load and unload device drivers"
+TOKEN_ACCESS_INFORMATION.Privileges[3].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[4].Luid: "Profile system performance"
+TOKEN_ACCESS_INFORMATION.Privileges[4].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[5].Luid: "Change the system time"
+TOKEN_ACCESS_INFORMATION.Privileges[5].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[6].Luid: "Profile single process"
+TOKEN_ACCESS_INFORMATION.Privileges[6].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[7].Luid: "Increase scheduling priority"
+TOKEN_ACCESS_INFORMATION.Privileges[7].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[8].Luid: "Create a pagefile"
+TOKEN_ACCESS_INFORMATION.Privileges[8].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[9].Luid: "Back up files and directories"
+TOKEN_ACCESS_INFORMATION.Privileges[9].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[10].Luid: "Restore files and directories"
+TOKEN_ACCESS_INFORMATION.Privileges[10].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[11].Luid: "Shut down the system"
+TOKEN_ACCESS_INFORMATION.Privileges[11].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[12].Luid: "Debug programs"
+TOKEN_ACCESS_INFORMATION.Privileges[12].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[13].Luid: "Modify firmware environment values"
+TOKEN_ACCESS_INFORMATION.Privileges[13].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[14].Luid: "Bypass traverse checking"
+TOKEN_ACCESS_INFORMATION.Privileges[14].Attributes: SE_PRIVILEGE_ENABLED_BY_DEFAULT | SE_PRIVILEGE_ENABLED (0x00000003)
+TOKEN_ACCESS_INFORMATION.Privileges[15].Luid: "Force shutdown from a remote system"
+TOKEN_ACCESS_INFORMATION.Privileges[15].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[16].Luid: "Remove computer from docking station"
+TOKEN_ACCESS_INFORMATION.Privileges[16].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[17].Luid: "Perform volume maintenance tasks"
+TOKEN_ACCESS_INFORMATION.Privileges[17].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[18].Luid: "Impersonate a client after authentication"
+TOKEN_ACCESS_INFORMATION.Privileges[18].Attributes: SE_PRIVILEGE_ENABLED_BY_DEFAULT | SE_PRIVILEGE_ENABLED (0x00000003)
+TOKEN_ACCESS_INFORMATION.Privileges[19].Luid: "Create global objects"
+TOKEN_ACCESS_INFORMATION.Privileges[19].Attributes: SE_PRIVILEGE_ENABLED_BY_DEFAULT | SE_PRIVILEGE_ENABLED (0x00000003)
+TOKEN_ACCESS_INFORMATION.Privileges[20].Luid: "Increase a process working set"
+TOKEN_ACCESS_INFORMATION.Privileges[20].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[21].Luid: "Change the time zone"
+TOKEN_ACCESS_INFORMATION.Privileges[21].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[22].Luid: "Create symbolic links"
+TOKEN_ACCESS_INFORMATION.Privileges[22].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.AuthenticationId.LowPart: 523840056 (0xl1F392A38)
+TOKEN_ACCESS_INFORMATION.AuthenticationId.HighPart: 0 (0x00000000)
+TOKEN_ACCESS_INFORMATION.TokenType: TokenImpersonation
+TOKEN_ACCESS_INFORMATION.ImpersonationLevel: SecurityIdentification
+TOKEN_ACCESS_INFORMATION.MandatoryPolicy.Policy: TOKEN_MANDATORY_POLICY_NO_WRITE_UP | TOKEN_MANDATORY_POLICY_NEW_PROCESS_MIN
+TOKEN_ACCESS_INFORMATION.Flags: 0 (0x00000000)
+
+TokenVirtualizationAllowed: 0 (0x00000000)
+
+TokenVirtualizationEnabled: 0 (0x00000000)
+
+TOKEN_MANDATORY_LABEL.Label
+	Sid: S-1-16-12288
+	Sid: Mandatory Label\High Mandatory Level (SidTypeLabel)
+	Attributes: SE_GROUP_INTEGRITY | SE_GROUP_INTEGRITY_ENABLED (0x00000060)
+
+TokenUIAccess: 0 (0x00000000)
+
+TOKEN_MANDATORY_POLICY.Policy: TOKEN_MANDATORY_POLICY_NO_WRITE_UP | TOKEN_MANDATORY_POLICY_NEW_PROCESS_MIN (0x00000003)
+
+TokenLogonSid
+	Sid: S-1-2215844352
+
+******************** TOKEN_LINKED_TOKEN.LinkedToken (end) ********************
+
+TOKEN_ELEVATION.TokenIsElevated: 0
+
+TokenHasRestrictions: 1
+
+TOKEN_ACCESS_INFORMATION.SidHash
+	SidCount: 12
+	SidAttr[0]
+	Sid: S-1-5-21-901191611-3409462790-1665155486-1000
+	Sid: JonEnfusion\Jon (SidTypeUser)
+	Attributes:  (0x00000000)
+	SidAttr[1]
+	Sid: S-1-5-21-901191611-3409462790-1665155486-513
+	Sid: JonEnfusion\None (SidTypeGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+	SidAttr[2]
+	Sid: S-1-1-0
+	Sid: Everyone (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+	SidAttr[3]
+	Sid: S-1-5-32-544
+	Sid: BUILTIN\Administrators (SidTypeAlias)
+	Attributes: SE_GROUP_USE_FOR_DENY_ONLY (0x00000010)
+	SidAttr[4]
+	Sid: S-1-5-32-545
+	Sid: BUILTIN\Users (SidTypeAlias)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+	SidAttr[5]
+	Sid: S-1-5-4
+	Sid: NT AUTHORITY\INTERACTIVE (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+	SidAttr[6]
+	Sid: S-1-5-11
+	Sid: NT AUTHORITY\Authenticated Users (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+	SidAttr[7]
+	Sid: S-1-5-15
+	Sid: NT AUTHORITY\This Organization (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+	SidAttr[8]
+	Sid: S-1-5-5-0-523839710
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED | SE_GROUP_LOGON_ID (0xC0000007)
+	SidAttr[9]
+	Sid: S-1-2-0
+	Sid: LOCAL (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+	SidAttr[10]
+	Sid: S-1-5-64-10
+	Sid: NT AUTHORITY\NTLM Authentication (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+	SidAttr[11]
+	Sid: S-1-16-8192
+	Sid: Mandatory Label\Medium Mandatory Level (SidTypeLabel)
+	Attributes: SE_GROUP_INTEGRITY | SE_GROUP_INTEGRITY_ENABLED (0x00000060)
+	Hash[0]: 2572 (0x00000A0C)
+	Hash[1]: 18 (0x00000012)
+	Hash[2]: 0 (0x00000000)
+	Hash[3]: 0 (0x00000000)
+	Hash[4]: 32 (0x00000020)
+	Hash[5]: 0 (0x00000000)
+	Hash[6]: 0 (0x00000000)
+	Hash[7]: 0 (0x00000000)
+	Hash[8]: 1 (0x00000001)
+	Hash[9]: 0 (0x00000000)
+	Hash[10]: 1024 (0x00000400)
+	Hash[11]: 64 (0x00000040)
+TOKEN_ACCESS_INFORMATION.RestrictedSidHash
+	SidCount: 0
+TOKEN_ACCESS_INFORMATION.Privileges.PrivilegeCount: 5
+TOKEN_ACCESS_INFORMATION.Privileges[0].Luid: "Shut down the system"
+TOKEN_ACCESS_INFORMATION.Privileges[0].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[1].Luid: "Bypass traverse checking"
+TOKEN_ACCESS_INFORMATION.Privileges[1].Attributes: SE_PRIVILEGE_ENABLED_BY_DEFAULT | SE_PRIVILEGE_ENABLED (0x00000003)
+TOKEN_ACCESS_INFORMATION.Privileges[2].Luid: "Remove computer from docking station"
+TOKEN_ACCESS_INFORMATION.Privileges[2].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[3].Luid: "Increase a process working set"
+TOKEN_ACCESS_INFORMATION.Privileges[3].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[4].Luid: "Change the time zone"
+TOKEN_ACCESS_INFORMATION.Privileges[4].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.AuthenticationId.LowPart: 523840151 (0xl1F392A97)
+TOKEN_ACCESS_INFORMATION.AuthenticationId.HighPart: 0 (0x00000000)
+TOKEN_ACCESS_INFORMATION.TokenType: TokenPrimary
+TOKEN_ACCESS_INFORMATION.ImpersonationLevel: SecurityAnonymous
+TOKEN_ACCESS_INFORMATION.MandatoryPolicy.Policy: TOKEN_MANDATORY_POLICY_NO_WRITE_UP | TOKEN_MANDATORY_POLICY_NEW_PROCESS_MIN
+TOKEN_ACCESS_INFORMATION.Flags: 2560 (0x00000A00)
+
+TokenVirtualizationAllowed: 1 (0x00000001)
+
+TokenVirtualizationEnabled: 0 (0x00000000)
+
+TOKEN_MANDATORY_LABEL.Label
+	Sid: S-1-16-8192
+	Sid: Mandatory Label\Medium Mandatory Level (SidTypeLabel)
+	Attributes: SE_GROUP_INTEGRITY | SE_GROUP_INTEGRITY_ENABLED (0x00000060)
+
+TokenUIAccess: 0 (0x00000000)
+
+TOKEN_MANDATORY_POLICY.Policy: TOKEN_MANDATORY_POLICY_NO_WRITE_UP | TOKEN_MANDATORY_POLICY_NEW_PROCESS_MIN (0x00000003)
+
+TokenLogonSid
+	Sid: S-1-2484607488
+
+CTestObject::CTestObject - 0x001A1990
+l_dwRunningObjectTableCookie: 65536 (0x00010000)
+CTestObject::DumpToken
+CoQueryClientBlanket() :-
+Authentication Service: RPC_C_AUTHN_WINNT (10)
+Authorization Service: RPC_C_AUTHZ_NONE (0)
+Server Principle Name: NULL
+Authorization Level: RPC_C_AUTHN_LEVEL_PKT_PRIVACY (6)
+Capabilities: EOAC_NONE (0)
+TOKEN_USER.User
+	Sid: S-1-5-21-901191611-3409462790-1665155486-1000
+	Sid: JonEnfusion\Jon (SidTypeUser)
+	Attributes:  (0x00000000)
+
+TOKEN_GROUPS.GroupCount: 11
+TOKEN_GROUPS.Group[0]
+	Sid: S-1-5-21-901191611-3409462790-1665155486-513
+	Sid: JonEnfusion\None (SidTypeGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS.Group[1]
+	Sid: S-1-1-0
+	Sid: Everyone (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS.Group[2]
+	Sid: S-1-5-32-544
+	Sid: BUILTIN\Administrators (SidTypeAlias)
+	Attributes: SE_GROUP_USE_FOR_DENY_ONLY (0x00000010)
+TOKEN_GROUPS.Group[3]
+	Sid: S-1-5-32-545
+	Sid: BUILTIN\Users (SidTypeAlias)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS.Group[4]
+	Sid: S-1-5-4
+	Sid: NT AUTHORITY\INTERACTIVE (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS.Group[5]
+	Sid: S-1-5-11
+	Sid: NT AUTHORITY\Authenticated Users (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS.Group[6]
+	Sid: S-1-5-15
+	Sid: NT AUTHORITY\This Organization (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS.Group[7]
+	Sid: S-1-5-5-0-523839710
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED | SE_GROUP_LOGON_ID (0xC0000007)
+TOKEN_GROUPS.Group[8]
+	Sid: S-1-2-0
+	Sid: LOCAL (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS.Group[9]
+	Sid: S-1-5-64-10
+	Sid: NT AUTHORITY\NTLM Authentication (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS.Group[10]
+	Sid: S-1-16-8192
+	Sid: Mandatory Label\Medium Mandatory Level (SidTypeLabel)
+	Attributes: SE_GROUP_INTEGRITY | SE_GROUP_INTEGRITY_ENABLED (0x00000060)
+
+TOKEN_PRIVILEGES.PrivilegeCount: 5
+TOKEN_PRIVILEGES.Privileges[0].Luid: "Shut down the system" 19 (0x00000013), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[0].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[1].Luid: "Bypass traverse checking" 23 (0x00000017), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[1].Attributes: SE_PRIVILEGE_ENABLED_BY_DEFAULT | SE_PRIVILEGE_ENABLED (0x00000003)
+TOKEN_PRIVILEGES.Privileges[2].Luid: "Remove computer from docking station" 25 (0x00000019), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[2].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[3].Luid: "Increase a process working set" 33 (0x00000021), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[3].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[4].Luid: "Change the time zone" 34 (0x00000022), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[4].Attributes:  (0x00000000)
+
+TOKEN_OWNER.Owner
+	Sid: S-1-5-21-901191611-3409462790-1665155486-1000
+	Sid: JonEnfusion\Jon (SidTypeUser)
+
+TOKEN_PRIMARY_GROUP.PrimaryGroup
+	Sid: S-1-5-21-901191611-3409462790-1665155486-513
+	Sid: JonEnfusion\None (SidTypeGroup)
+
+TOKEN_DEFAULT_DACL
+	ACE[0].grfAccessPermissions: GENERIC_ALL (0x10000000)
+	ACE[0].grfAccessMode: GRANT_ACCESS (0x00000001)
+	ACE[0].grfInheritance:  (0x00000000)
+	ACE[0].Trustee.MultipleTrusteeOperation: NO_MULTIPLE_TRUSTEE (0x00000000)
+	ACE[0].Trustee.TrusteeForm: TRUSTEE_IS_SID (0x00000000)
+	ACE[0].Trustee.TrusteeType: TRUSTEE_IS_UNKNOWN (0x00000000)
+	Trustee.ptstrName
+	Sid: S-1-5-21-901191611-3409462790-1665155486-1000
+	Sid: JonEnfusion\Jon (SidTypeUser)
+
+	ACE[1].grfAccessPermissions: GENERIC_ALL (0x10000000)
+	ACE[1].grfAccessMode: GRANT_ACCESS (0x00000001)
+	ACE[1].grfInheritance:  (0x00000000)
+	ACE[1].Trustee.MultipleTrusteeOperation: NO_MULTIPLE_TRUSTEE (0x00000000)
+	ACE[1].Trustee.TrusteeForm: TRUSTEE_IS_SID (0x00000000)
+	ACE[1].Trustee.TrusteeType: TRUSTEE_IS_UNKNOWN (0x00000000)
+	Trustee.ptstrName
+	Sid: S-1-5-18
+	Sid: NT AUTHORITY\SYSTEM (SidTypeWellKnownGroup)
+
+	ACE[2].grfAccessPermissions: GENERIC_EXECUTE | GENERIC_READ (0xA0000000)
+	ACE[2].grfAccessMode: GRANT_ACCESS (0x00000001)
+	ACE[2].grfInheritance:  (0x00000000)
+	ACE[2].Trustee.MultipleTrusteeOperation: NO_MULTIPLE_TRUSTEE (0x00000000)
+	ACE[2].Trustee.TrusteeForm: TRUSTEE_IS_SID (0x00000000)
+	ACE[2].Trustee.TrusteeType: TRUSTEE_IS_UNKNOWN (0x00000000)
+	Trustee.ptstrName
+	Sid: S-1-5-5-0-523839710
+
+TOKEN_DEFAULT_DACL
+	ACE[0].Header.AceType: ACCESS_ALLOWED_ACE_TYPE (0)
+	ACE[0].Header.AceFlags:  (0x00000000)
+	ACE[0].Header.AceSize: 36 (0x00000024)
+	ACE[0].Mask: GENERIC_ALL (0x10000000)
+	ACE[0].Sid
+	Sid: S-1-5-21-901191611-3409462790-1665155486-1000
+	Sid: JonEnfusion\Jon (SidTypeUser)
+
+	ACE[1].Header.AceType: ACCESS_ALLOWED_ACE_TYPE (0)
+	ACE[1].Header.AceFlags:  (0x00000000)
+	ACE[1].Header.AceSize: 20 (0x00000014)
+	ACE[1].Mask: GENERIC_ALL (0x10000000)
+	ACE[1].Sid
+	Sid: S-1-5-18
+	Sid: NT AUTHORITY\SYSTEM (SidTypeWellKnownGroup)
+
+	ACE[2].Header.AceType: ACCESS_ALLOWED_ACE_TYPE (0)
+	ACE[2].Header.AceFlags:  (0x00000000)
+	ACE[2].Header.AceSize: 28 (0x0000001C)
+	ACE[2].Mask: GENERIC_EXECUTE | GENERIC_READ (0xA0000000)
+	ACE[2].Sid
+	Sid: S-1-5-5-0-523839710
+
+
+TOKEN_SOURCE.SourceName: "User32 "
+TOKEN_SOURCE.SourceIdentifier.LowPart: 523839840 (0x1F392960)
+TOKEN_SOURCE.SourceIdentifier.HighPart: 0 (0x00000000)
+
+TOKEN_TYPE: TokenImpersonation
+
+SECURITY_IMPERSONATION_LEVEL: SecurityIdentification
+
+TOKEN_STATISTICS.TokenId.LowPart: 1537888416 (0x5BAA50A0)
+TOKEN_STATISTICS.TokenId.HighPart: 0 (0x00000000)
+TOKEN_STATISTICS.AuthenticationId.LowPart: 523840151 (0x1F392A97)
+TOKEN_STATISTICS.AuthenticationId.HighPart: 0 (0x00000000)
+TOKEN_STATISTICS.ExpirationTime.LowPart: -1 (0xFFFFFFFF)
+TOKEN_STATISTICS.ExpirationTime.HighPart: 2147483647 (0x7FFFFFFF)
+TOKEN_STATISTICS.TokenType: TokenImpersonation
+TOKEN_STATISTICS.ImpersonationLevel: SecurityIdentification
+TOKEN_STATISTICS.DynamicCharged: 1024 (0x002DF1B4)
+TOKEN_STATISTICS.DynamicAvailable: 904 (0x002DF1B4)
+TOKEN_STATISTICS.GroupCount: 11
+TOKEN_STATISTICS.PrivilegeCount: 5
+TOKEN_STATISTICS.ModifiedId.LowPart: 1245028663 (0x4A35A137)
+TOKEN_STATISTICS.ModifiedId.HighPart: 0 (0x00000000)
+
+TokenRestrictedSids.GroupCount: 0
+
+TokenSessionId: 8 (0x00000008)
+
+TOKEN_GROUPS_AND_PRIVILEGES.SidCount: 12
+TOKEN_GROUPS_AND_PRIVILEGES.SidLength: 292
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[0]
+	Sid: S-1-5-21-901191611-3409462790-1665155486-1000
+	Sid: JonEnfusion\Jon (SidTypeUser)
+	Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[1]
+	Sid: S-1-5-21-901191611-3409462790-1665155486-513
+	Sid: JonEnfusion\None (SidTypeGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[2]
+	Sid: S-1-1-0
+	Sid: Everyone (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[3]
+	Sid: S-1-5-32-544
+	Sid: BUILTIN\Administrators (SidTypeAlias)
+	Attributes: SE_GROUP_USE_FOR_DENY_ONLY (0x00000010)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[4]
+	Sid: S-1-5-32-545
+	Sid: BUILTIN\Users (SidTypeAlias)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[5]
+	Sid: S-1-5-4
+	Sid: NT AUTHORITY\INTERACTIVE (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[6]
+	Sid: S-1-5-11
+	Sid: NT AUTHORITY\Authenticated Users (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[7]
+	Sid: S-1-5-15
+	Sid: NT AUTHORITY\This Organization (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[8]
+	Sid: S-1-5-5-0-523839710
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED | SE_GROUP_LOGON_ID (0xC0000007)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[9]
+	Sid: S-1-2-0
+	Sid: LOCAL (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[10]
+	Sid: S-1-5-64-10
+	Sid: NT AUTHORITY\NTLM Authentication (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[11]
+	Sid: S-1-16-8192
+	Sid: Mandatory Label\Medium Mandatory Level (SidTypeLabel)
+	Attributes: SE_GROUP_INTEGRITY | SE_GROUP_INTEGRITY_ENABLED (0x00000060)
+TOKEN_GROUPS_AND_PRIVILEGES.RestrictedSidCount: 0
+TOKEN_GROUPS_AND_PRIVILEGES.RestrictedSidLength: 0
+TOKEN_GROUPS_AND_PRIVILEGES.PrivilegeCount: 5
+TOKEN_GROUPS_AND_PRIVILEGES.PrivilegeLength: 60
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[0].Luid: "Shut down the system" 19 (0x00000013), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[0].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[1].Luid: "Bypass traverse checking" 23 (0x00000017), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[1].Attributes: SE_PRIVILEGE_ENABLED_BY_DEFAULT | SE_PRIVILEGE_ENABLED (0x00000003)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[2].Luid: "Remove computer from docking station" 25 (0x00000019), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[2].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[3].Luid: "Increase a process working set" 33 (0x00000021), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[3].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[4].Luid: "Change the time zone" 34 (0x00000022), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[4].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.AuthenticationId.LowPart: 523840151 (0x1F392A97)
+TOKEN_GROUPS_AND_PRIVILEGES.AuthenticationId.HighPart: 0 (0x00000000)
+
+TokenSandBoxInert: 0 (0x00000000)
+
+TOKEN_ORIGIN.OriginatingLogonSession.LowPart: 999 (0x000003E7)
+TOKEN_ORIGIN.OriginatingLogonSession.HighPart: 0 (0x00000000)
+
+TOKEN_ELEVATION_TYPE: TokenElevationTypeLimited
+
+******************** TOKEN_LINKED_TOKEN.LinkedToken (start) ********************
+TOKEN_USER.User
+	Sid: S-1-5-21-901191611-3409462790-1665155486-1000
+	Sid: JonEnfusion\Jon (SidTypeUser)
+	Attributes:  (0x00000000)
+
+TOKEN_GROUPS.GroupCount: 11
+TOKEN_GROUPS.Group[0]
+	Sid: S-1-5-21-901191611-3409462790-1665155486-513
+	Sid: JonEnfusion\None (SidTypeGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS.Group[1]
+	Sid: S-1-1-0
+	Sid: Everyone (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS.Group[2]
+	Sid: S-1-5-32-544
+	Sid: BUILTIN\Administrators (SidTypeAlias)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED | SE_GROUP_OWNER (0x0000000F)
+TOKEN_GROUPS.Group[3]
+	Sid: S-1-5-32-545
+	Sid: BUILTIN\Users (SidTypeAlias)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS.Group[4]
+	Sid: S-1-5-4
+	Sid: NT AUTHORITY\INTERACTIVE (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS.Group[5]
+	Sid: S-1-5-11
+	Sid: NT AUTHORITY\Authenticated Users (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS.Group[6]
+	Sid: S-1-5-15
+	Sid: NT AUTHORITY\This Organization (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS.Group[7]
+	Sid: S-1-5-5-0-523839710
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED | SE_GROUP_LOGON_ID (0xC0000007)
+TOKEN_GROUPS.Group[8]
+	Sid: S-1-2-0
+	Sid: LOCAL (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS.Group[9]
+	Sid: S-1-5-64-10
+	Sid: NT AUTHORITY\NTLM Authentication (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS.Group[10]
+	Sid: S-1-16-12288
+	Sid: Mandatory Label\High Mandatory Level (SidTypeLabel)
+	Attributes: SE_GROUP_INTEGRITY | SE_GROUP_INTEGRITY_ENABLED (0x00000060)
+
+TOKEN_PRIVILEGES.PrivilegeCount: 23
+TOKEN_PRIVILEGES.Privileges[0].Luid: "Adjust memory quotas for a process" 5 (0x00000005), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[0].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[1].Luid: "Manage auditing and security log" 8 (0x00000008), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[1].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[2].Luid: "Take ownership of files or other objects" 9 (0x00000009), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[2].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[3].Luid: "Load and unload device drivers" 10 (0x0000000A), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[3].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[4].Luid: "Profile system performance" 11 (0x0000000B), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[4].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[5].Luid: "Change the system time" 12 (0x0000000C), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[5].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[6].Luid: "Profile single process" 13 (0x0000000D), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[6].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[7].Luid: "Increase scheduling priority" 14 (0x0000000E), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[7].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[8].Luid: "Create a pagefile" 15 (0x0000000F), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[8].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[9].Luid: "Back up files and directories" 17 (0x00000011), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[9].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[10].Luid: "Restore files and directories" 18 (0x00000012), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[10].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[11].Luid: "Shut down the system" 19 (0x00000013), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[11].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[12].Luid: "Debug programs" 20 (0x00000014), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[12].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[13].Luid: "Modify firmware environment values" 22 (0x00000016), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[13].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[14].Luid: "Bypass traverse checking" 23 (0x00000017), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[14].Attributes: SE_PRIVILEGE_ENABLED_BY_DEFAULT | SE_PRIVILEGE_ENABLED (0x00000003)
+TOKEN_PRIVILEGES.Privileges[15].Luid: "Force shutdown from a remote system" 24 (0x00000018), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[15].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[16].Luid: "Remove computer from docking station" 25 (0x00000019), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[16].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[17].Luid: "Perform volume maintenance tasks" 28 (0x0000001C), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[17].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[18].Luid: "Impersonate a client after authentication" 29 (0x0000001D), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[18].Attributes: SE_PRIVILEGE_ENABLED_BY_DEFAULT | SE_PRIVILEGE_ENABLED (0x00000003)
+TOKEN_PRIVILEGES.Privileges[19].Luid: "Create global objects" 30 (0x0000001E), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[19].Attributes: SE_PRIVILEGE_ENABLED_BY_DEFAULT | SE_PRIVILEGE_ENABLED (0x00000003)
+TOKEN_PRIVILEGES.Privileges[20].Luid: "Increase a process working set" 33 (0x00000021), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[20].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[21].Luid: "Change the time zone" 34 (0x00000022), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[21].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[22].Luid: "Create symbolic links" 35 (0x00000023), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[22].Attributes:  (0x00000000)
+
+TOKEN_OWNER.Owner
+	Sid: S-1-5-32-544
+	Sid: BUILTIN\Administrators (SidTypeAlias)
+
+TOKEN_PRIMARY_GROUP.PrimaryGroup
+	Sid: S-1-5-21-901191611-3409462790-1665155486-513
+	Sid: JonEnfusion\None (SidTypeGroup)
+
+TOKEN_DEFAULT_DACL
+	ACE[0].grfAccessPermissions: GENERIC_ALL (0x10000000)
+	ACE[0].grfAccessMode: GRANT_ACCESS (0x00000001)
+	ACE[0].grfInheritance:  (0x00000000)
+	ACE[0].Trustee.MultipleTrusteeOperation: NO_MULTIPLE_TRUSTEE (0x00000000)
+	ACE[0].Trustee.TrusteeForm: TRUSTEE_IS_SID (0x00000000)
+	ACE[0].Trustee.TrusteeType: TRUSTEE_IS_UNKNOWN (0x00000000)
+	Trustee.ptstrName
+	Sid: S-1-5-32-544
+	Sid: BUILTIN\Administrators (SidTypeAlias)
+
+	ACE[1].grfAccessPermissions: GENERIC_ALL (0x10000000)
+	ACE[1].grfAccessMode: GRANT_ACCESS (0x00000001)
+	ACE[1].grfInheritance:  (0x00000000)
+	ACE[1].Trustee.MultipleTrusteeOperation: NO_MULTIPLE_TRUSTEE (0x00000000)
+	ACE[1].Trustee.TrusteeForm: TRUSTEE_IS_SID (0x00000000)
+	ACE[1].Trustee.TrusteeType: TRUSTEE_IS_UNKNOWN (0x00000000)
+	Trustee.ptstrName
+	Sid: S-1-5-18
+	Sid: NT AUTHORITY\SYSTEM (SidTypeWellKnownGroup)
+
+	ACE[2].grfAccessPermissions: GENERIC_EXECUTE | GENERIC_READ (0xA0000000)
+	ACE[2].grfAccessMode: GRANT_ACCESS (0x00000001)
+	ACE[2].grfInheritance:  (0x00000000)
+	ACE[2].Trustee.MultipleTrusteeOperation: NO_MULTIPLE_TRUSTEE (0x00000000)
+	ACE[2].Trustee.TrusteeForm: TRUSTEE_IS_SID (0x00000000)
+	ACE[2].Trustee.TrusteeType: TRUSTEE_IS_UNKNOWN (0x00000000)
+	Trustee.ptstrName
+	Sid: S-1-5-5-0-523839710
+
+TOKEN_DEFAULT_DACL
+	ACE[0].Header.AceType: ACCESS_ALLOWED_ACE_TYPE (0)
+	ACE[0].Header.AceFlags:  (0x00000000)
+	ACE[0].Header.AceSize: 24 (0x00000018)
+	ACE[0].Mask: GENERIC_ALL (0x10000000)
+	ACE[0].Sid
+	Sid: S-1-5-32-544
+	Sid: BUILTIN\Administrators (SidTypeAlias)
+
+	ACE[1].Header.AceType: ACCESS_ALLOWED_ACE_TYPE (0)
+	ACE[1].Header.AceFlags:  (0x00000000)
+	ACE[1].Header.AceSize: 20 (0x00000014)
+	ACE[1].Mask: GENERIC_ALL (0x10000000)
+	ACE[1].Sid
+	Sid: S-1-5-18
+	Sid: NT AUTHORITY\SYSTEM (SidTypeWellKnownGroup)
+
+	ACE[2].Header.AceType: ACCESS_ALLOWED_ACE_TYPE (0)
+	ACE[2].Header.AceFlags:  (0x00000000)
+	ACE[2].Header.AceSize: 28 (0x0000001C)
+	ACE[2].Mask: GENERIC_EXECUTE | GENERIC_READ (0xA0000000)
+	ACE[2].Sid
+	Sid: S-1-5-5-0-523839710
+
+
+TOKEN_SOURCE.SourceName: "User32 "
+TOKEN_SOURCE.SourceIdentifier.LowPart: 523839840 (0x1F392960)
+TOKEN_SOURCE.SourceIdentifier.HighPart: 0 (0x00000000)
+
+TOKEN_TYPE: TokenImpersonation
+
+SECURITY_IMPERSONATION_LEVEL: SecurityIdentification
+
+TOKEN_STATISTICS.TokenId.LowPart: 1537890234 (0x5BAA57BA)
+TOKEN_STATISTICS.TokenId.HighPart: 0 (0x00000000)
+TOKEN_STATISTICS.AuthenticationId.LowPart: 523840056 (0x1F392A38)
+TOKEN_STATISTICS.AuthenticationId.HighPart: 0 (0x00000000)
+TOKEN_STATISTICS.ExpirationTime.LowPart: -1 (0xFFFFFFFF)
+TOKEN_STATISTICS.ExpirationTime.HighPart: 2147483647 (0x7FFFFFFF)
+TOKEN_STATISTICS.TokenType: TokenImpersonation
+TOKEN_STATISTICS.ImpersonationLevel: SecurityIdentification
+TOKEN_STATISTICS.DynamicCharged: 1024 (0x002DECBC)
+TOKEN_STATISTICS.DynamicAvailable: 916 (0x002DECBC)
+TOKEN_STATISTICS.GroupCount: 11
+TOKEN_STATISTICS.PrivilegeCount: 23
+TOKEN_STATISTICS.ModifiedId.LowPart: 523840150 (0x1F392A96)
+TOKEN_STATISTICS.ModifiedId.HighPart: 0 (0x00000000)
+
+TokenRestrictedSids.GroupCount: 0
+
+TokenSessionId: 8 (0x00000008)
+
+TOKEN_GROUPS_AND_PRIVILEGES.SidCount: 12
+TOKEN_GROUPS_AND_PRIVILEGES.SidLength: 292
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[0]
+	Sid: S-1-5-21-901191611-3409462790-1665155486-1000
+	Sid: JonEnfusion\Jon (SidTypeUser)
+	Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[1]
+	Sid: S-1-5-21-901191611-3409462790-1665155486-513
+	Sid: JonEnfusion\None (SidTypeGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[2]
+	Sid: S-1-1-0
+	Sid: Everyone (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[3]
+	Sid: S-1-5-32-544
+	Sid: BUILTIN\Administrators (SidTypeAlias)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED | SE_GROUP_OWNER (0x0000000F)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[4]
+	Sid: S-1-5-32-545
+	Sid: BUILTIN\Users (SidTypeAlias)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[5]
+	Sid: S-1-5-4
+	Sid: NT AUTHORITY\INTERACTIVE (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[6]
+	Sid: S-1-5-11
+	Sid: NT AUTHORITY\Authenticated Users (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[7]
+	Sid: S-1-5-15
+	Sid: NT AUTHORITY\This Organization (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[8]
+	Sid: S-1-5-5-0-523839710
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED | SE_GROUP_LOGON_ID (0xC0000007)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[9]
+	Sid: S-1-2-0
+	Sid: LOCAL (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[10]
+	Sid: S-1-5-64-10
+	Sid: NT AUTHORITY\NTLM Authentication (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[11]
+	Sid: S-1-16-12288
+	Sid: Mandatory Label\High Mandatory Level (SidTypeLabel)
+	Attributes: SE_GROUP_INTEGRITY | SE_GROUP_INTEGRITY_ENABLED (0x00000060)
+TOKEN_GROUPS_AND_PRIVILEGES.RestrictedSidCount: 0
+TOKEN_GROUPS_AND_PRIVILEGES.RestrictedSidLength: 0
+TOKEN_GROUPS_AND_PRIVILEGES.PrivilegeCount: 23
+TOKEN_GROUPS_AND_PRIVILEGES.PrivilegeLength: 276
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[0].Luid: "Adjust memory quotas for a process" 5 (0x00000005), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[0].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[1].Luid: "Manage auditing and security log" 8 (0x00000008), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[1].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[2].Luid: "Take ownership of files or other objects" 9 (0x00000009), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[2].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[3].Luid: "Load and unload device drivers" 10 (0x0000000A), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[3].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[4].Luid: "Profile system performance" 11 (0x0000000B), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[4].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[5].Luid: "Change the system time" 12 (0x0000000C), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[5].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[6].Luid: "Profile single process" 13 (0x0000000D), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[6].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[7].Luid: "Increase scheduling priority" 14 (0x0000000E), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[7].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[8].Luid: "Create a pagefile" 15 (0x0000000F), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[8].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[9].Luid: "Back up files and directories" 17 (0x00000011), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[9].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[10].Luid: "Restore files and directories" 18 (0x00000012), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[10].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[11].Luid: "Shut down the system" 19 (0x00000013), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[11].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[12].Luid: "Debug programs" 20 (0x00000014), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[12].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[13].Luid: "Modify firmware environment values" 22 (0x00000016), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[13].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[14].Luid: "Bypass traverse checking" 23 (0x00000017), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[14].Attributes: SE_PRIVILEGE_ENABLED_BY_DEFAULT | SE_PRIVILEGE_ENABLED (0x00000003)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[15].Luid: "Force shutdown from a remote system" 24 (0x00000018), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[15].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[16].Luid: "Remove computer from docking station" 25 (0x00000019), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[16].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[17].Luid: "Perform volume maintenance tasks" 28 (0x0000001C), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[17].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[18].Luid: "Impersonate a client after authentication" 29 (0x0000001D), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[18].Attributes: SE_PRIVILEGE_ENABLED_BY_DEFAULT | SE_PRIVILEGE_ENABLED (0x00000003)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[19].Luid: "Create global objects" 30 (0x0000001E), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[19].Attributes: SE_PRIVILEGE_ENABLED_BY_DEFAULT | SE_PRIVILEGE_ENABLED (0x00000003)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[20].Luid: "Increase a process working set" 33 (0x00000021), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[20].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[21].Luid: "Change the time zone" 34 (0x00000022), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[21].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[22].Luid: "Create symbolic links" 35 (0x00000023), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[22].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.AuthenticationId.LowPart: 523840056 (0x1F392A38)
+TOKEN_GROUPS_AND_PRIVILEGES.AuthenticationId.HighPart: 0 (0x00000000)
+
+TokenSandBoxInert: 0 (0x00000000)
+
+TOKEN_ORIGIN.OriginatingLogonSession.LowPart: 999 (0x000003E7)
+TOKEN_ORIGIN.OriginatingLogonSession.HighPart: 0 (0x00000000)
+
+TOKEN_ELEVATION_TYPE: TokenElevationTypeFull
+
+TOKEN_ELEVATION.TokenIsElevated: 1
+
+TokenHasRestrictions: 0
+
+TOKEN_ACCESS_INFORMATION.SidHash
+	SidCount: 12
+	SidAttr[0]
+	Sid: S-1-5-21-901191611-3409462790-1665155486-1000
+	Sid: JonEnfusion\Jon (SidTypeUser)
+	Attributes:  (0x00000000)
+	SidAttr[1]
+	Sid: S-1-5-21-901191611-3409462790-1665155486-513
+	Sid: JonEnfusion\None (SidTypeGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+	SidAttr[2]
+	Sid: S-1-1-0
+	Sid: Everyone (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+	SidAttr[3]
+	Sid: S-1-5-32-544
+	Sid: BUILTIN\Administrators (SidTypeAlias)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED | SE_GROUP_OWNER (0x0000000F)
+	SidAttr[4]
+	Sid: S-1-5-32-545
+	Sid: BUILTIN\Users (SidTypeAlias)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+	SidAttr[5]
+	Sid: S-1-5-4
+	Sid: NT AUTHORITY\INTERACTIVE (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+	SidAttr[6]
+	Sid: S-1-5-11
+	Sid: NT AUTHORITY\Authenticated Users (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+	SidAttr[7]
+	Sid: S-1-5-15
+	Sid: NT AUTHORITY\This Organization (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+	SidAttr[8]
+	Sid: S-1-5-5-0-523839710
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED | SE_GROUP_LOGON_ID (0xC0000007)
+	SidAttr[9]
+	Sid: S-1-2-0
+	Sid: LOCAL (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+	SidAttr[10]
+	Sid: S-1-5-64-10
+	Sid: NT AUTHORITY\NTLM Authentication (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+	SidAttr[11]
+	Sid: S-1-16-12288
+	Sid: Mandatory Label\High Mandatory Level (SidTypeLabel)
+	Attributes: SE_GROUP_INTEGRITY | SE_GROUP_INTEGRITY_ENABLED (0x00000060)
+	Hash[0]: 2572 (0x00000A0C)
+	Hash[1]: 18 (0x00000012)
+	Hash[2]: 0 (0x00000000)
+	Hash[3]: 0 (0x00000000)
+	Hash[4]: 32 (0x00000020)
+	Hash[5]: 0 (0x00000000)
+	Hash[6]: 0 (0x00000000)
+	Hash[7]: 0 (0x00000000)
+	Hash[8]: 1 (0x00000001)
+	Hash[9]: 0 (0x00000000)
+	Hash[10]: 1024 (0x00000400)
+	Hash[11]: 64 (0x00000040)
+TOKEN_ACCESS_INFORMATION.RestrictedSidHash
+	SidCount: 0
+TOKEN_ACCESS_INFORMATION.Privileges.PrivilegeCount: 23
+TOKEN_ACCESS_INFORMATION.Privileges[0].Luid: "Adjust memory quotas for a process"
+TOKEN_ACCESS_INFORMATION.Privileges[0].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[1].Luid: "Manage auditing and security log"
+TOKEN_ACCESS_INFORMATION.Privileges[1].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[2].Luid: "Take ownership of files or other objects"
+TOKEN_ACCESS_INFORMATION.Privileges[2].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[3].Luid: "Load and unload device drivers"
+TOKEN_ACCESS_INFORMATION.Privileges[3].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[4].Luid: "Profile system performance"
+TOKEN_ACCESS_INFORMATION.Privileges[4].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[5].Luid: "Change the system time"
+TOKEN_ACCESS_INFORMATION.Privileges[5].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[6].Luid: "Profile single process"
+TOKEN_ACCESS_INFORMATION.Privileges[6].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[7].Luid: "Increase scheduling priority"
+TOKEN_ACCESS_INFORMATION.Privileges[7].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[8].Luid: "Create a pagefile"
+TOKEN_ACCESS_INFORMATION.Privileges[8].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[9].Luid: "Back up files and directories"
+TOKEN_ACCESS_INFORMATION.Privileges[9].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[10].Luid: "Restore files and directories"
+TOKEN_ACCESS_INFORMATION.Privileges[10].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[11].Luid: "Shut down the system"
+TOKEN_ACCESS_INFORMATION.Privileges[11].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[12].Luid: "Debug programs"
+TOKEN_ACCESS_INFORMATION.Privileges[12].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[13].Luid: "Modify firmware environment values"
+TOKEN_ACCESS_INFORMATION.Privileges[13].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[14].Luid: "Bypass traverse checking"
+TOKEN_ACCESS_INFORMATION.Privileges[14].Attributes: SE_PRIVILEGE_ENABLED_BY_DEFAULT | SE_PRIVILEGE_ENABLED (0x00000003)
+TOKEN_ACCESS_INFORMATION.Privileges[15].Luid: "Force shutdown from a remote system"
+TOKEN_ACCESS_INFORMATION.Privileges[15].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[16].Luid: "Remove computer from docking station"
+TOKEN_ACCESS_INFORMATION.Privileges[16].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[17].Luid: "Perform volume maintenance tasks"
+TOKEN_ACCESS_INFORMATION.Privileges[17].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[18].Luid: "Impersonate a client after authentication"
+TOKEN_ACCESS_INFORMATION.Privileges[18].Attributes: SE_PRIVILEGE_ENABLED_BY_DEFAULT | SE_PRIVILEGE_ENABLED (0x00000003)
+TOKEN_ACCESS_INFORMATION.Privileges[19].Luid: "Create global objects"
+TOKEN_ACCESS_INFORMATION.Privileges[19].Attributes: SE_PRIVILEGE_ENABLED_BY_DEFAULT | SE_PRIVILEGE_ENABLED (0x00000003)
+TOKEN_ACCESS_INFORMATION.Privileges[20].Luid: "Increase a process working set"
+TOKEN_ACCESS_INFORMATION.Privileges[20].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[21].Luid: "Change the time zone"
+TOKEN_ACCESS_INFORMATION.Privileges[21].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[22].Luid: "Create symbolic links"
+TOKEN_ACCESS_INFORMATION.Privileges[22].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.AuthenticationId.LowPart: 523840056 (0xl1F392A38)
+TOKEN_ACCESS_INFORMATION.AuthenticationId.HighPart: 0 (0x00000000)
+TOKEN_ACCESS_INFORMATION.TokenType: TokenImpersonation
+TOKEN_ACCESS_INFORMATION.ImpersonationLevel: SecurityIdentification
+TOKEN_ACCESS_INFORMATION.MandatoryPolicy.Policy: TOKEN_MANDATORY_POLICY_NO_WRITE_UP | TOKEN_MANDATORY_POLICY_NEW_PROCESS_MIN
+TOKEN_ACCESS_INFORMATION.Flags: 0 (0x00000000)
+
+TokenVirtualizationAllowed: 0 (0x00000000)
+
+TokenVirtualizationEnabled: 0 (0x00000000)
+
+TOKEN_MANDATORY_LABEL.Label
+	Sid: S-1-16-12288
+	Sid: Mandatory Label\High Mandatory Level (SidTypeLabel)
+	Attributes: SE_GROUP_INTEGRITY | SE_GROUP_INTEGRITY_ENABLED (0x00000060)
+
+TokenUIAccess: 0 (0x00000000)
+
+TOKEN_MANDATORY_POLICY.Policy: TOKEN_MANDATORY_POLICY_NO_WRITE_UP | TOKEN_MANDATORY_POLICY_NEW_PROCESS_MIN (0x00000003)
+
+TokenLogonSid
+	Sid: S-1-68819456
+
+******************** TOKEN_LINKED_TOKEN.LinkedToken (end) ********************
+
+TOKEN_ELEVATION.TokenIsElevated: 0
+
+TokenHasRestrictions: 1
+
+TOKEN_ACCESS_INFORMATION.SidHash
+	SidCount: 12
+	SidAttr[0]
+	Sid: S-1-5-21-901191611-3409462790-1665155486-1000
+	Sid: JonEnfusion\Jon (SidTypeUser)
+	Attributes:  (0x00000000)
+	SidAttr[1]
+	Sid: S-1-5-21-901191611-3409462790-1665155486-513
+	Sid: JonEnfusion\None (SidTypeGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+	SidAttr[2]
+	Sid: S-1-1-0
+	Sid: Everyone (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+	SidAttr[3]
+	Sid: S-1-5-32-544
+	Sid: BUILTIN\Administrators (SidTypeAlias)
+	Attributes: SE_GROUP_USE_FOR_DENY_ONLY (0x00000010)
+	SidAttr[4]
+	Sid: S-1-5-32-545
+	Sid: BUILTIN\Users (SidTypeAlias)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+	SidAttr[5]
+	Sid: S-1-5-4
+	Sid: NT AUTHORITY\INTERACTIVE (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+	SidAttr[6]
+	Sid: S-1-5-11
+	Sid: NT AUTHORITY\Authenticated Users (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+	SidAttr[7]
+	Sid: S-1-5-15
+	Sid: NT AUTHORITY\This Organization (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+	SidAttr[8]
+	Sid: S-1-5-5-0-523839710
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED | SE_GROUP_LOGON_ID (0xC0000007)
+	SidAttr[9]
+	Sid: S-1-2-0
+	Sid: LOCAL (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+	SidAttr[10]
+	Sid: S-1-5-64-10
+	Sid: NT AUTHORITY\NTLM Authentication (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+	SidAttr[11]
+	Sid: S-1-16-8192
+	Sid: Mandatory Label\Medium Mandatory Level (SidTypeLabel)
+	Attributes: SE_GROUP_INTEGRITY | SE_GROUP_INTEGRITY_ENABLED (0x00000060)
+	Hash[0]: 2572 (0x00000A0C)
+	Hash[1]: 18 (0x00000012)
+	Hash[2]: 0 (0x00000000)
+	Hash[3]: 0 (0x00000000)
+	Hash[4]: 32 (0x00000020)
+	Hash[5]: 0 (0x00000000)
+	Hash[6]: 0 (0x00000000)
+	Hash[7]: 0 (0x00000000)
+	Hash[8]: 1 (0x00000001)
+	Hash[9]: 0 (0x00000000)
+	Hash[10]: 1024 (0x00000400)
+	Hash[11]: 64 (0x00000040)
+TOKEN_ACCESS_INFORMATION.RestrictedSidHash
+	SidCount: 0
+TOKEN_ACCESS_INFORMATION.Privileges.PrivilegeCount: 5
+TOKEN_ACCESS_INFORMATION.Privileges[0].Luid: "Shut down the system"
+TOKEN_ACCESS_INFORMATION.Privileges[0].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[1].Luid: "Bypass traverse checking"
+TOKEN_ACCESS_INFORMATION.Privileges[1].Attributes: SE_PRIVILEGE_ENABLED_BY_DEFAULT | SE_PRIVILEGE_ENABLED (0x00000003)
+TOKEN_ACCESS_INFORMATION.Privileges[2].Luid: "Remove computer from docking station"
+TOKEN_ACCESS_INFORMATION.Privileges[2].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[3].Luid: "Increase a process working set"
+TOKEN_ACCESS_INFORMATION.Privileges[3].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[4].Luid: "Change the time zone"
+TOKEN_ACCESS_INFORMATION.Privileges[4].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.AuthenticationId.LowPart: 523840151 (0xl1F392A97)
+TOKEN_ACCESS_INFORMATION.AuthenticationId.HighPart: 0 (0x00000000)
+TOKEN_ACCESS_INFORMATION.TokenType: TokenImpersonation
+TOKEN_ACCESS_INFORMATION.ImpersonationLevel: SecurityIdentification
+TOKEN_ACCESS_INFORMATION.MandatoryPolicy.Policy: TOKEN_MANDATORY_POLICY_NO_WRITE_UP | TOKEN_MANDATORY_POLICY_NEW_PROCESS_MIN
+TOKEN_ACCESS_INFORMATION.Flags: 2560 (0x00000A00)
+
+TokenVirtualizationAllowed: 1 (0x00000001)
+
+TokenVirtualizationEnabled: 0 (0x00000000)
+
+TOKEN_MANDATORY_LABEL.Label
+	Sid: S-1-16-8192
+	Sid: Mandatory Label\Medium Mandatory Level (SidTypeLabel)
+	Attributes: SE_GROUP_INTEGRITY | SE_GROUP_INTEGRITY_ENABLED (0x00000060)
+
+TokenUIAccess: 0 (0x00000000)
+
+TOKEN_MANDATORY_POLICY.Policy: TOKEN_MANDATORY_POLICY_NO_WRITE_UP | TOKEN_MANDATORY_POLICY_NEW_PROCESS_MIN (0x00000003)
+
+TokenLogonSid
+	Sid: S-1-3558414848
+
+CTestObject::DumpToken
+CoQueryClientBlanket() :-
+Authentication Service: RPC_C_AUTHN_WINNT (10)
+Authorization Service: RPC_C_AUTHZ_NONE (0)
+Server Principle Name: NULL
+Authorization Level: RPC_C_AUTHN_LEVEL_PKT_PRIVACY (6)
+Capabilities: EOAC_NONE (0)
+TOKEN_USER.User
+	Sid: S-1-5-21-901191611-3409462790-1665155486-1000
+	Sid: JonEnfusion\Jon (SidTypeUser)
+	Attributes:  (0x00000000)
+
+TOKEN_GROUPS.GroupCount: 11
+TOKEN_GROUPS.Group[0]
+	Sid: S-1-5-21-901191611-3409462790-1665155486-513
+	Sid: JonEnfusion\None (SidTypeGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS.Group[1]
+	Sid: S-1-1-0
+	Sid: Everyone (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS.Group[2]
+	Sid: S-1-5-32-544
+	Sid: BUILTIN\Administrators (SidTypeAlias)
+	Attributes: SE_GROUP_USE_FOR_DENY_ONLY (0x00000010)
+TOKEN_GROUPS.Group[3]
+	Sid: S-1-5-32-545
+	Sid: BUILTIN\Users (SidTypeAlias)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS.Group[4]
+	Sid: S-1-5-4
+	Sid: NT AUTHORITY\INTERACTIVE (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS.Group[5]
+	Sid: S-1-5-11
+	Sid: NT AUTHORITY\Authenticated Users (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS.Group[6]
+	Sid: S-1-5-15
+	Sid: NT AUTHORITY\This Organization (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS.Group[7]
+	Sid: S-1-5-5-0-523839710
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED | SE_GROUP_LOGON_ID (0xC0000007)
+TOKEN_GROUPS.Group[8]
+	Sid: S-1-2-0
+	Sid: LOCAL (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS.Group[9]
+	Sid: S-1-5-64-10
+	Sid: NT AUTHORITY\NTLM Authentication (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS.Group[10]
+	Sid: S-1-16-8192
+	Sid: Mandatory Label\Medium Mandatory Level (SidTypeLabel)
+	Attributes: SE_GROUP_INTEGRITY | SE_GROUP_INTEGRITY_ENABLED (0x00000060)
+
+TOKEN_PRIVILEGES.PrivilegeCount: 5
+TOKEN_PRIVILEGES.Privileges[0].Luid: "Shut down the system" 19 (0x00000013), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[0].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[1].Luid: "Bypass traverse checking" 23 (0x00000017), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[1].Attributes: SE_PRIVILEGE_ENABLED_BY_DEFAULT | SE_PRIVILEGE_ENABLED (0x00000003)
+TOKEN_PRIVILEGES.Privileges[2].Luid: "Remove computer from docking station" 25 (0x00000019), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[2].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[3].Luid: "Increase a process working set" 33 (0x00000021), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[3].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[4].Luid: "Change the time zone" 34 (0x00000022), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[4].Attributes:  (0x00000000)
+
+TOKEN_OWNER.Owner
+	Sid: S-1-5-21-901191611-3409462790-1665155486-1000
+	Sid: JonEnfusion\Jon (SidTypeUser)
+
+TOKEN_PRIMARY_GROUP.PrimaryGroup
+	Sid: S-1-5-21-901191611-3409462790-1665155486-513
+	Sid: JonEnfusion\None (SidTypeGroup)
+
+TOKEN_DEFAULT_DACL
+	ACE[0].grfAccessPermissions: GENERIC_ALL (0x10000000)
+	ACE[0].grfAccessMode: GRANT_ACCESS (0x00000001)
+	ACE[0].grfInheritance:  (0x00000000)
+	ACE[0].Trustee.MultipleTrusteeOperation: NO_MULTIPLE_TRUSTEE (0x00000000)
+	ACE[0].Trustee.TrusteeForm: TRUSTEE_IS_SID (0x00000000)
+	ACE[0].Trustee.TrusteeType: TRUSTEE_IS_UNKNOWN (0x00000000)
+	Trustee.ptstrName
+	Sid: S-1-5-21-901191611-3409462790-1665155486-1000
+	Sid: JonEnfusion\Jon (SidTypeUser)
+
+	ACE[1].grfAccessPermissions: GENERIC_ALL (0x10000000)
+	ACE[1].grfAccessMode: GRANT_ACCESS (0x00000001)
+	ACE[1].grfInheritance:  (0x00000000)
+	ACE[1].Trustee.MultipleTrusteeOperation: NO_MULTIPLE_TRUSTEE (0x00000000)
+	ACE[1].Trustee.TrusteeForm: TRUSTEE_IS_SID (0x00000000)
+	ACE[1].Trustee.TrusteeType: TRUSTEE_IS_UNKNOWN (0x00000000)
+	Trustee.ptstrName
+	Sid: S-1-5-18
+	Sid: NT AUTHORITY\SYSTEM (SidTypeWellKnownGroup)
+
+	ACE[2].grfAccessPermissions: GENERIC_EXECUTE | GENERIC_READ (0xA0000000)
+	ACE[2].grfAccessMode: GRANT_ACCESS (0x00000001)
+	ACE[2].grfInheritance:  (0x00000000)
+	ACE[2].Trustee.MultipleTrusteeOperation: NO_MULTIPLE_TRUSTEE (0x00000000)
+	ACE[2].Trustee.TrusteeForm: TRUSTEE_IS_SID (0x00000000)
+	ACE[2].Trustee.TrusteeType: TRUSTEE_IS_UNKNOWN (0x00000000)
+	Trustee.ptstrName
+	Sid: S-1-5-5-0-523839710
+
+TOKEN_DEFAULT_DACL
+	ACE[0].Header.AceType: ACCESS_ALLOWED_ACE_TYPE (0)
+	ACE[0].Header.AceFlags:  (0x00000000)
+	ACE[0].Header.AceSize: 36 (0x00000024)
+	ACE[0].Mask: GENERIC_ALL (0x10000000)
+	ACE[0].Sid
+	Sid: S-1-5-21-901191611-3409462790-1665155486-1000
+	Sid: JonEnfusion\Jon (SidTypeUser)
+
+	ACE[1].Header.AceType: ACCESS_ALLOWED_ACE_TYPE (0)
+	ACE[1].Header.AceFlags:  (0x00000000)
+	ACE[1].Header.AceSize: 20 (0x00000014)
+	ACE[1].Mask: GENERIC_ALL (0x10000000)
+	ACE[1].Sid
+	Sid: S-1-5-18
+	Sid: NT AUTHORITY\SYSTEM (SidTypeWellKnownGroup)
+
+	ACE[2].Header.AceType: ACCESS_ALLOWED_ACE_TYPE (0)
+	ACE[2].Header.AceFlags:  (0x00000000)
+	ACE[2].Header.AceSize: 28 (0x0000001C)
+	ACE[2].Mask: GENERIC_EXECUTE | GENERIC_READ (0xA0000000)
+	ACE[2].Sid
+	Sid: S-1-5-5-0-523839710
+
+
+TOKEN_SOURCE.SourceName: "User32 "
+TOKEN_SOURCE.SourceIdentifier.LowPart: 523839840 (0x1F392960)
+TOKEN_SOURCE.SourceIdentifier.HighPart: 0 (0x00000000)
+
+TOKEN_TYPE: TokenImpersonation
+
+SECURITY_IMPERSONATION_LEVEL: SecurityDelegation
+
+TOKEN_STATISTICS.TokenId.LowPart: 1537896211 (0x5BAA6F13)
+TOKEN_STATISTICS.TokenId.HighPart: 0 (0x00000000)
+TOKEN_STATISTICS.AuthenticationId.LowPart: 523840151 (0x1F392A97)
+TOKEN_STATISTICS.AuthenticationId.HighPart: 0 (0x00000000)
+TOKEN_STATISTICS.ExpirationTime.LowPart: -1 (0xFFFFFFFF)
+TOKEN_STATISTICS.ExpirationTime.HighPart: 2147483647 (0x7FFFFFFF)
+TOKEN_STATISTICS.TokenType: TokenImpersonation
+TOKEN_STATISTICS.ImpersonationLevel: SecurityDelegation
+TOKEN_STATISTICS.DynamicCharged: 1024 (0x002DF1B4)
+TOKEN_STATISTICS.DynamicAvailable: 904 (0x002DF1B4)
+TOKEN_STATISTICS.GroupCount: 11
+TOKEN_STATISTICS.PrivilegeCount: 5
+TOKEN_STATISTICS.ModifiedId.LowPart: 1245028663 (0x4A35A137)
+TOKEN_STATISTICS.ModifiedId.HighPart: 0 (0x00000000)
+
+TokenRestrictedSids.GroupCount: 0
+
+TokenSessionId: 8 (0x00000008)
+
+TOKEN_GROUPS_AND_PRIVILEGES.SidCount: 12
+TOKEN_GROUPS_AND_PRIVILEGES.SidLength: 292
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[0]
+	Sid: S-1-5-21-901191611-3409462790-1665155486-1000
+	Sid: JonEnfusion\Jon (SidTypeUser)
+	Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[1]
+	Sid: S-1-5-21-901191611-3409462790-1665155486-513
+	Sid: JonEnfusion\None (SidTypeGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[2]
+	Sid: S-1-1-0
+	Sid: Everyone (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[3]
+	Sid: S-1-5-32-544
+	Sid: BUILTIN\Administrators (SidTypeAlias)
+	Attributes: SE_GROUP_USE_FOR_DENY_ONLY (0x00000010)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[4]
+	Sid: S-1-5-32-545
+	Sid: BUILTIN\Users (SidTypeAlias)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[5]
+	Sid: S-1-5-4
+	Sid: NT AUTHORITY\INTERACTIVE (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[6]
+	Sid: S-1-5-11
+	Sid: NT AUTHORITY\Authenticated Users (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[7]
+	Sid: S-1-5-15
+	Sid: NT AUTHORITY\This Organization (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[8]
+	Sid: S-1-5-5-0-523839710
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED | SE_GROUP_LOGON_ID (0xC0000007)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[9]
+	Sid: S-1-2-0
+	Sid: LOCAL (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[10]
+	Sid: S-1-5-64-10
+	Sid: NT AUTHORITY\NTLM Authentication (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[11]
+	Sid: S-1-16-8192
+	Sid: Mandatory Label\Medium Mandatory Level (SidTypeLabel)
+	Attributes: SE_GROUP_INTEGRITY | SE_GROUP_INTEGRITY_ENABLED (0x00000060)
+TOKEN_GROUPS_AND_PRIVILEGES.RestrictedSidCount: 0
+TOKEN_GROUPS_AND_PRIVILEGES.RestrictedSidLength: 0
+TOKEN_GROUPS_AND_PRIVILEGES.PrivilegeCount: 5
+TOKEN_GROUPS_AND_PRIVILEGES.PrivilegeLength: 60
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[0].Luid: "Shut down the system" 19 (0x00000013), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[0].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[1].Luid: "Bypass traverse checking" 23 (0x00000017), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[1].Attributes: SE_PRIVILEGE_ENABLED_BY_DEFAULT | SE_PRIVILEGE_ENABLED (0x00000003)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[2].Luid: "Remove computer from docking station" 25 (0x00000019), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[2].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[3].Luid: "Increase a process working set" 33 (0x00000021), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[3].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[4].Luid: "Change the time zone" 34 (0x00000022), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[4].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.AuthenticationId.LowPart: 523840151 (0x1F392A97)
+TOKEN_GROUPS_AND_PRIVILEGES.AuthenticationId.HighPart: 0 (0x00000000)
+
+TokenSandBoxInert: 0 (0x00000000)
+
+TOKEN_ORIGIN.OriginatingLogonSession.LowPart: 999 (0x000003E7)
+TOKEN_ORIGIN.OriginatingLogonSession.HighPart: 0 (0x00000000)
+
+TOKEN_ELEVATION_TYPE: TokenElevationTypeLimited
+
+******************** TOKEN_LINKED_TOKEN.LinkedToken (start) ********************
+TOKEN_USER.User
+	Sid: S-1-5-21-901191611-3409462790-1665155486-1000
+	Sid: JonEnfusion\Jon (SidTypeUser)
+	Attributes:  (0x00000000)
+
+TOKEN_GROUPS.GroupCount: 11
+TOKEN_GROUPS.Group[0]
+	Sid: S-1-5-21-901191611-3409462790-1665155486-513
+	Sid: JonEnfusion\None (SidTypeGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS.Group[1]
+	Sid: S-1-1-0
+	Sid: Everyone (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS.Group[2]
+	Sid: S-1-5-32-544
+	Sid: BUILTIN\Administrators (SidTypeAlias)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED | SE_GROUP_OWNER (0x0000000F)
+TOKEN_GROUPS.Group[3]
+	Sid: S-1-5-32-545
+	Sid: BUILTIN\Users (SidTypeAlias)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS.Group[4]
+	Sid: S-1-5-4
+	Sid: NT AUTHORITY\INTERACTIVE (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS.Group[5]
+	Sid: S-1-5-11
+	Sid: NT AUTHORITY\Authenticated Users (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS.Group[6]
+	Sid: S-1-5-15
+	Sid: NT AUTHORITY\This Organization (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS.Group[7]
+	Sid: S-1-5-5-0-523839710
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED | SE_GROUP_LOGON_ID (0xC0000007)
+TOKEN_GROUPS.Group[8]
+	Sid: S-1-2-0
+	Sid: LOCAL (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS.Group[9]
+	Sid: S-1-5-64-10
+	Sid: NT AUTHORITY\NTLM Authentication (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS.Group[10]
+	Sid: S-1-16-12288
+	Sid: Mandatory Label\High Mandatory Level (SidTypeLabel)
+	Attributes: SE_GROUP_INTEGRITY | SE_GROUP_INTEGRITY_ENABLED (0x00000060)
+
+TOKEN_PRIVILEGES.PrivilegeCount: 23
+TOKEN_PRIVILEGES.Privileges[0].Luid: "Adjust memory quotas for a process" 5 (0x00000005), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[0].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[1].Luid: "Manage auditing and security log" 8 (0x00000008), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[1].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[2].Luid: "Take ownership of files or other objects" 9 (0x00000009), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[2].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[3].Luid: "Load and unload device drivers" 10 (0x0000000A), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[3].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[4].Luid: "Profile system performance" 11 (0x0000000B), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[4].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[5].Luid: "Change the system time" 12 (0x0000000C), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[5].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[6].Luid: "Profile single process" 13 (0x0000000D), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[6].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[7].Luid: "Increase scheduling priority" 14 (0x0000000E), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[7].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[8].Luid: "Create a pagefile" 15 (0x0000000F), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[8].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[9].Luid: "Back up files and directories" 17 (0x00000011), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[9].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[10].Luid: "Restore files and directories" 18 (0x00000012), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[10].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[11].Luid: "Shut down the system" 19 (0x00000013), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[11].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[12].Luid: "Debug programs" 20 (0x00000014), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[12].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[13].Luid: "Modify firmware environment values" 22 (0x00000016), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[13].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[14].Luid: "Bypass traverse checking" 23 (0x00000017), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[14].Attributes: SE_PRIVILEGE_ENABLED_BY_DEFAULT | SE_PRIVILEGE_ENABLED (0x00000003)
+TOKEN_PRIVILEGES.Privileges[15].Luid: "Force shutdown from a remote system" 24 (0x00000018), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[15].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[16].Luid: "Remove computer from docking station" 25 (0x00000019), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[16].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[17].Luid: "Perform volume maintenance tasks" 28 (0x0000001C), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[17].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[18].Luid: "Impersonate a client after authentication" 29 (0x0000001D), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[18].Attributes: SE_PRIVILEGE_ENABLED_BY_DEFAULT | SE_PRIVILEGE_ENABLED (0x00000003)
+TOKEN_PRIVILEGES.Privileges[19].Luid: "Create global objects" 30 (0x0000001E), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[19].Attributes: SE_PRIVILEGE_ENABLED_BY_DEFAULT | SE_PRIVILEGE_ENABLED (0x00000003)
+TOKEN_PRIVILEGES.Privileges[20].Luid: "Increase a process working set" 33 (0x00000021), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[20].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[21].Luid: "Change the time zone" 34 (0x00000022), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[21].Attributes:  (0x00000000)
+TOKEN_PRIVILEGES.Privileges[22].Luid: "Create symbolic links" 35 (0x00000023), 0 (0x00000000)
+TOKEN_PRIVILEGES.Privileges[22].Attributes:  (0x00000000)
+
+TOKEN_OWNER.Owner
+	Sid: S-1-5-32-544
+	Sid: BUILTIN\Administrators (SidTypeAlias)
+
+TOKEN_PRIMARY_GROUP.PrimaryGroup
+	Sid: S-1-5-21-901191611-3409462790-1665155486-513
+	Sid: JonEnfusion\None (SidTypeGroup)
+
+TOKEN_DEFAULT_DACL
+	ACE[0].grfAccessPermissions: GENERIC_ALL (0x10000000)
+	ACE[0].grfAccessMode: GRANT_ACCESS (0x00000001)
+	ACE[0].grfInheritance:  (0x00000000)
+	ACE[0].Trustee.MultipleTrusteeOperation: NO_MULTIPLE_TRUSTEE (0x00000000)
+	ACE[0].Trustee.TrusteeForm: TRUSTEE_IS_SID (0x00000000)
+	ACE[0].Trustee.TrusteeType: TRUSTEE_IS_UNKNOWN (0x00000000)
+	Trustee.ptstrName
+	Sid: S-1-5-32-544
+	Sid: BUILTIN\Administrators (SidTypeAlias)
+
+	ACE[1].grfAccessPermissions: GENERIC_ALL (0x10000000)
+	ACE[1].grfAccessMode: GRANT_ACCESS (0x00000001)
+	ACE[1].grfInheritance:  (0x00000000)
+	ACE[1].Trustee.MultipleTrusteeOperation: NO_MULTIPLE_TRUSTEE (0x00000000)
+	ACE[1].Trustee.TrusteeForm: TRUSTEE_IS_SID (0x00000000)
+	ACE[1].Trustee.TrusteeType: TRUSTEE_IS_UNKNOWN (0x00000000)
+	Trustee.ptstrName
+	Sid: S-1-5-18
+	Sid: NT AUTHORITY\SYSTEM (SidTypeWellKnownGroup)
+
+	ACE[2].grfAccessPermissions: GENERIC_EXECUTE | GENERIC_READ (0xA0000000)
+	ACE[2].grfAccessMode: GRANT_ACCESS (0x00000001)
+	ACE[2].grfInheritance:  (0x00000000)
+	ACE[2].Trustee.MultipleTrusteeOperation: NO_MULTIPLE_TRUSTEE (0x00000000)
+	ACE[2].Trustee.TrusteeForm: TRUSTEE_IS_SID (0x00000000)
+	ACE[2].Trustee.TrusteeType: TRUSTEE_IS_UNKNOWN (0x00000000)
+	Trustee.ptstrName
+	Sid: S-1-5-5-0-523839710
+
+TOKEN_DEFAULT_DACL
+	ACE[0].Header.AceType: ACCESS_ALLOWED_ACE_TYPE (0)
+	ACE[0].Header.AceFlags:  (0x00000000)
+	ACE[0].Header.AceSize: 24 (0x00000018)
+	ACE[0].Mask: GENERIC_ALL (0x10000000)
+	ACE[0].Sid
+	Sid: S-1-5-32-544
+	Sid: BUILTIN\Administrators (SidTypeAlias)
+
+	ACE[1].Header.AceType: ACCESS_ALLOWED_ACE_TYPE (0)
+	ACE[1].Header.AceFlags:  (0x00000000)
+	ACE[1].Header.AceSize: 20 (0x00000014)
+	ACE[1].Mask: GENERIC_ALL (0x10000000)
+	ACE[1].Sid
+	Sid: S-1-5-18
+	Sid: NT AUTHORITY\SYSTEM (SidTypeWellKnownGroup)
+
+	ACE[2].Header.AceType: ACCESS_ALLOWED_ACE_TYPE (0)
+	ACE[2].Header.AceFlags:  (0x00000000)
+	ACE[2].Header.AceSize: 28 (0x0000001C)
+	ACE[2].Mask: GENERIC_EXECUTE | GENERIC_READ (0xA0000000)
+	ACE[2].Sid
+	Sid: S-1-5-5-0-523839710
+
+
+TOKEN_SOURCE.SourceName: "User32 "
+TOKEN_SOURCE.SourceIdentifier.LowPart: 523839840 (0x1F392960)
+TOKEN_SOURCE.SourceIdentifier.HighPart: 0 (0x00000000)
+
+TOKEN_TYPE: TokenImpersonation
+
+SECURITY_IMPERSONATION_LEVEL: SecurityIdentification
+
+TOKEN_STATISTICS.TokenId.LowPart: 1537897630 (0x5BAA749E)
+TOKEN_STATISTICS.TokenId.HighPart: 0 (0x00000000)
+TOKEN_STATISTICS.AuthenticationId.LowPart: 523840056 (0x1F392A38)
+TOKEN_STATISTICS.AuthenticationId.HighPart: 0 (0x00000000)
+TOKEN_STATISTICS.ExpirationTime.LowPart: -1 (0xFFFFFFFF)
+TOKEN_STATISTICS.ExpirationTime.HighPart: 2147483647 (0x7FFFFFFF)
+TOKEN_STATISTICS.TokenType: TokenImpersonation
+TOKEN_STATISTICS.ImpersonationLevel: SecurityIdentification
+TOKEN_STATISTICS.DynamicCharged: 1024 (0x002DECBC)
+TOKEN_STATISTICS.DynamicAvailable: 916 (0x002DECBC)
+TOKEN_STATISTICS.GroupCount: 11
+TOKEN_STATISTICS.PrivilegeCount: 23
+TOKEN_STATISTICS.ModifiedId.LowPart: 523840150 (0x1F392A96)
+TOKEN_STATISTICS.ModifiedId.HighPart: 0 (0x00000000)
+
+TokenRestrictedSids.GroupCount: 0
+
+TokenSessionId: 8 (0x00000008)
+
+TOKEN_GROUPS_AND_PRIVILEGES.SidCount: 12
+TOKEN_GROUPS_AND_PRIVILEGES.SidLength: 292
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[0]
+	Sid: S-1-5-21-901191611-3409462790-1665155486-1000
+	Sid: JonEnfusion\Jon (SidTypeUser)
+	Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[1]
+	Sid: S-1-5-21-901191611-3409462790-1665155486-513
+	Sid: JonEnfusion\None (SidTypeGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[2]
+	Sid: S-1-1-0
+	Sid: Everyone (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[3]
+	Sid: S-1-5-32-544
+	Sid: BUILTIN\Administrators (SidTypeAlias)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED | SE_GROUP_OWNER (0x0000000F)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[4]
+	Sid: S-1-5-32-545
+	Sid: BUILTIN\Users (SidTypeAlias)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[5]
+	Sid: S-1-5-4
+	Sid: NT AUTHORITY\INTERACTIVE (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[6]
+	Sid: S-1-5-11
+	Sid: NT AUTHORITY\Authenticated Users (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[7]
+	Sid: S-1-5-15
+	Sid: NT AUTHORITY\This Organization (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[8]
+	Sid: S-1-5-5-0-523839710
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED | SE_GROUP_LOGON_ID (0xC0000007)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[9]
+	Sid: S-1-2-0
+	Sid: LOCAL (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[10]
+	Sid: S-1-5-64-10
+	Sid: NT AUTHORITY\NTLM Authentication (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+TOKEN_GROUPS_AND_PRIVILEGES.Sids[11]
+	Sid: S-1-16-12288
+	Sid: Mandatory Label\High Mandatory Level (SidTypeLabel)
+	Attributes: SE_GROUP_INTEGRITY | SE_GROUP_INTEGRITY_ENABLED (0x00000060)
+TOKEN_GROUPS_AND_PRIVILEGES.RestrictedSidCount: 0
+TOKEN_GROUPS_AND_PRIVILEGES.RestrictedSidLength: 0
+TOKEN_GROUPS_AND_PRIVILEGES.PrivilegeCount: 23
+TOKEN_GROUPS_AND_PRIVILEGES.PrivilegeLength: 276
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[0].Luid: "Adjust memory quotas for a process" 5 (0x00000005), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[0].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[1].Luid: "Manage auditing and security log" 8 (0x00000008), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[1].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[2].Luid: "Take ownership of files or other objects" 9 (0x00000009), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[2].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[3].Luid: "Load and unload device drivers" 10 (0x0000000A), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[3].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[4].Luid: "Profile system performance" 11 (0x0000000B), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[4].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[5].Luid: "Change the system time" 12 (0x0000000C), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[5].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[6].Luid: "Profile single process" 13 (0x0000000D), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[6].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[7].Luid: "Increase scheduling priority" 14 (0x0000000E), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[7].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[8].Luid: "Create a pagefile" 15 (0x0000000F), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[8].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[9].Luid: "Back up files and directories" 17 (0x00000011), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[9].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[10].Luid: "Restore files and directories" 18 (0x00000012), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[10].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[11].Luid: "Shut down the system" 19 (0x00000013), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[11].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[12].Luid: "Debug programs" 20 (0x00000014), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[12].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[13].Luid: "Modify firmware environment values" 22 (0x00000016), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[13].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[14].Luid: "Bypass traverse checking" 23 (0x00000017), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[14].Attributes: SE_PRIVILEGE_ENABLED_BY_DEFAULT | SE_PRIVILEGE_ENABLED (0x00000003)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[15].Luid: "Force shutdown from a remote system" 24 (0x00000018), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[15].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[16].Luid: "Remove computer from docking station" 25 (0x00000019), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[16].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[17].Luid: "Perform volume maintenance tasks" 28 (0x0000001C), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[17].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[18].Luid: "Impersonate a client after authentication" 29 (0x0000001D), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[18].Attributes: SE_PRIVILEGE_ENABLED_BY_DEFAULT | SE_PRIVILEGE_ENABLED (0x00000003)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[19].Luid: "Create global objects" 30 (0x0000001E), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[19].Attributes: SE_PRIVILEGE_ENABLED_BY_DEFAULT | SE_PRIVILEGE_ENABLED (0x00000003)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[20].Luid: "Increase a process working set" 33 (0x00000021), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[20].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[21].Luid: "Change the time zone" 34 (0x00000022), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[21].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[22].Luid: "Create symbolic links" 35 (0x00000023), 0 (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.Privileges[22].Attributes:  (0x00000000)
+TOKEN_GROUPS_AND_PRIVILEGES.AuthenticationId.LowPart: 523840056 (0x1F392A38)
+TOKEN_GROUPS_AND_PRIVILEGES.AuthenticationId.HighPart: 0 (0x00000000)
+
+TokenSandBoxInert: 0 (0x00000000)
+
+TOKEN_ORIGIN.OriginatingLogonSession.LowPart: 999 (0x000003E7)
+TOKEN_ORIGIN.OriginatingLogonSession.HighPart: 0 (0x00000000)
+
+TOKEN_ELEVATION_TYPE: TokenElevationTypeFull
+
+TOKEN_ELEVATION.TokenIsElevated: 1
+
+TokenHasRestrictions: 0
+
+TOKEN_ACCESS_INFORMATION.SidHash
+	SidCount: 12
+	SidAttr[0]
+	Sid: S-1-5-21-901191611-3409462790-1665155486-1000
+	Sid: JonEnfusion\Jon (SidTypeUser)
+	Attributes:  (0x00000000)
+	SidAttr[1]
+	Sid: S-1-5-21-901191611-3409462790-1665155486-513
+	Sid: JonEnfusion\None (SidTypeGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+	SidAttr[2]
+	Sid: S-1-1-0
+	Sid: Everyone (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+	SidAttr[3]
+	Sid: S-1-5-32-544
+	Sid: BUILTIN\Administrators (SidTypeAlias)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED | SE_GROUP_OWNER (0x0000000F)
+	SidAttr[4]
+	Sid: S-1-5-32-545
+	Sid: BUILTIN\Users (SidTypeAlias)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+	SidAttr[5]
+	Sid: S-1-5-4
+	Sid: NT AUTHORITY\INTERACTIVE (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+	SidAttr[6]
+	Sid: S-1-5-11
+	Sid: NT AUTHORITY\Authenticated Users (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+	SidAttr[7]
+	Sid: S-1-5-15
+	Sid: NT AUTHORITY\This Organization (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+	SidAttr[8]
+	Sid: S-1-5-5-0-523839710
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED | SE_GROUP_LOGON_ID (0xC0000007)
+	SidAttr[9]
+	Sid: S-1-2-0
+	Sid: LOCAL (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+	SidAttr[10]
+	Sid: S-1-5-64-10
+	Sid: NT AUTHORITY\NTLM Authentication (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+	SidAttr[11]
+	Sid: S-1-16-12288
+	Sid: Mandatory Label\High Mandatory Level (SidTypeLabel)
+	Attributes: SE_GROUP_INTEGRITY | SE_GROUP_INTEGRITY_ENABLED (0x00000060)
+	Hash[0]: 2572 (0x00000A0C)
+	Hash[1]: 18 (0x00000012)
+	Hash[2]: 0 (0x00000000)
+	Hash[3]: 0 (0x00000000)
+	Hash[4]: 32 (0x00000020)
+	Hash[5]: 0 (0x00000000)
+	Hash[6]: 0 (0x00000000)
+	Hash[7]: 0 (0x00000000)
+	Hash[8]: 1 (0x00000001)
+	Hash[9]: 0 (0x00000000)
+	Hash[10]: 1024 (0x00000400)
+	Hash[11]: 64 (0x00000040)
+TOKEN_ACCESS_INFORMATION.RestrictedSidHash
+	SidCount: 0
+TOKEN_ACCESS_INFORMATION.Privileges.PrivilegeCount: 23
+TOKEN_ACCESS_INFORMATION.Privileges[0].Luid: "Adjust memory quotas for a process"
+TOKEN_ACCESS_INFORMATION.Privileges[0].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[1].Luid: "Manage auditing and security log"
+TOKEN_ACCESS_INFORMATION.Privileges[1].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[2].Luid: "Take ownership of files or other objects"
+TOKEN_ACCESS_INFORMATION.Privileges[2].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[3].Luid: "Load and unload device drivers"
+TOKEN_ACCESS_INFORMATION.Privileges[3].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[4].Luid: "Profile system performance"
+TOKEN_ACCESS_INFORMATION.Privileges[4].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[5].Luid: "Change the system time"
+TOKEN_ACCESS_INFORMATION.Privileges[5].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[6].Luid: "Profile single process"
+TOKEN_ACCESS_INFORMATION.Privileges[6].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[7].Luid: "Increase scheduling priority"
+TOKEN_ACCESS_INFORMATION.Privileges[7].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[8].Luid: "Create a pagefile"
+TOKEN_ACCESS_INFORMATION.Privileges[8].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[9].Luid: "Back up files and directories"
+TOKEN_ACCESS_INFORMATION.Privileges[9].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[10].Luid: "Restore files and directories"
+TOKEN_ACCESS_INFORMATION.Privileges[10].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[11].Luid: "Shut down the system"
+TOKEN_ACCESS_INFORMATION.Privileges[11].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[12].Luid: "Debug programs"
+TOKEN_ACCESS_INFORMATION.Privileges[12].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[13].Luid: "Modify firmware environment values"
+TOKEN_ACCESS_INFORMATION.Privileges[13].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[14].Luid: "Bypass traverse checking"
+TOKEN_ACCESS_INFORMATION.Privileges[14].Attributes: SE_PRIVILEGE_ENABLED_BY_DEFAULT | SE_PRIVILEGE_ENABLED (0x00000003)
+TOKEN_ACCESS_INFORMATION.Privileges[15].Luid: "Force shutdown from a remote system"
+TOKEN_ACCESS_INFORMATION.Privileges[15].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[16].Luid: "Remove computer from docking station"
+TOKEN_ACCESS_INFORMATION.Privileges[16].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[17].Luid: "Perform volume maintenance tasks"
+TOKEN_ACCESS_INFORMATION.Privileges[17].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[18].Luid: "Impersonate a client after authentication"
+TOKEN_ACCESS_INFORMATION.Privileges[18].Attributes: SE_PRIVILEGE_ENABLED_BY_DEFAULT | SE_PRIVILEGE_ENABLED (0x00000003)
+TOKEN_ACCESS_INFORMATION.Privileges[19].Luid: "Create global objects"
+TOKEN_ACCESS_INFORMATION.Privileges[19].Attributes: SE_PRIVILEGE_ENABLED_BY_DEFAULT | SE_PRIVILEGE_ENABLED (0x00000003)
+TOKEN_ACCESS_INFORMATION.Privileges[20].Luid: "Increase a process working set"
+TOKEN_ACCESS_INFORMATION.Privileges[20].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[21].Luid: "Change the time zone"
+TOKEN_ACCESS_INFORMATION.Privileges[21].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[22].Luid: "Create symbolic links"
+TOKEN_ACCESS_INFORMATION.Privileges[22].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.AuthenticationId.LowPart: 523840056 (0xl1F392A38)
+TOKEN_ACCESS_INFORMATION.AuthenticationId.HighPart: 0 (0x00000000)
+TOKEN_ACCESS_INFORMATION.TokenType: TokenImpersonation
+TOKEN_ACCESS_INFORMATION.ImpersonationLevel: SecurityIdentification
+TOKEN_ACCESS_INFORMATION.MandatoryPolicy.Policy: TOKEN_MANDATORY_POLICY_NO_WRITE_UP | TOKEN_MANDATORY_POLICY_NEW_PROCESS_MIN
+TOKEN_ACCESS_INFORMATION.Flags: 0 (0x00000000)
+
+TokenVirtualizationAllowed: 0 (0x00000000)
+
+TokenVirtualizationEnabled: 0 (0x00000000)
+
+TOKEN_MANDATORY_LABEL.Label
+	Sid: S-1-16-12288
+	Sid: Mandatory Label\High Mandatory Level (SidTypeLabel)
+	Attributes: SE_GROUP_INTEGRITY | SE_GROUP_INTEGRITY_ENABLED (0x00000060)
+
+TokenUIAccess: 0 (0x00000000)
+
+TOKEN_MANDATORY_POLICY.Policy: TOKEN_MANDATORY_POLICY_NO_WRITE_UP | TOKEN_MANDATORY_POLICY_NEW_PROCESS_MIN (0x00000003)
+
+TokenLogonSid
+	Sid: S-1-68819456
+
+******************** TOKEN_LINKED_TOKEN.LinkedToken (end) ********************
+
+TOKEN_ELEVATION.TokenIsElevated: 0
+
+TokenHasRestrictions: 1
+
+TOKEN_ACCESS_INFORMATION.SidHash
+	SidCount: 12
+	SidAttr[0]
+	Sid: S-1-5-21-901191611-3409462790-1665155486-1000
+	Sid: JonEnfusion\Jon (SidTypeUser)
+	Attributes:  (0x00000000)
+	SidAttr[1]
+	Sid: S-1-5-21-901191611-3409462790-1665155486-513
+	Sid: JonEnfusion\None (SidTypeGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+	SidAttr[2]
+	Sid: S-1-1-0
+	Sid: Everyone (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+	SidAttr[3]
+	Sid: S-1-5-32-544
+	Sid: BUILTIN\Administrators (SidTypeAlias)
+	Attributes: SE_GROUP_USE_FOR_DENY_ONLY (0x00000010)
+	SidAttr[4]
+	Sid: S-1-5-32-545
+	Sid: BUILTIN\Users (SidTypeAlias)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+	SidAttr[5]
+	Sid: S-1-5-4
+	Sid: NT AUTHORITY\INTERACTIVE (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+	SidAttr[6]
+	Sid: S-1-5-11
+	Sid: NT AUTHORITY\Authenticated Users (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+	SidAttr[7]
+	Sid: S-1-5-15
+	Sid: NT AUTHORITY\This Organization (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+	SidAttr[8]
+	Sid: S-1-5-5-0-523839710
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED | SE_GROUP_LOGON_ID (0xC0000007)
+	SidAttr[9]
+	Sid: S-1-2-0
+	Sid: LOCAL (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+	SidAttr[10]
+	Sid: S-1-5-64-10
+	Sid: NT AUTHORITY\NTLM Authentication (SidTypeWellKnownGroup)
+	Attributes: SE_GROUP_MANDATORY | SE_GROUP_ENABLED_BY_DEFAULT | SE_GROUP_ENABLED (0x00000007)
+	SidAttr[11]
+	Sid: S-1-16-8192
+	Sid: Mandatory Label\Medium Mandatory Level (SidTypeLabel)
+	Attributes: SE_GROUP_INTEGRITY | SE_GROUP_INTEGRITY_ENABLED (0x00000060)
+	Hash[0]: 2572 (0x00000A0C)
+	Hash[1]: 18 (0x00000012)
+	Hash[2]: 0 (0x00000000)
+	Hash[3]: 0 (0x00000000)
+	Hash[4]: 32 (0x00000020)
+	Hash[5]: 0 (0x00000000)
+	Hash[6]: 0 (0x00000000)
+	Hash[7]: 0 (0x00000000)
+	Hash[8]: 1 (0x00000001)
+	Hash[9]: 0 (0x00000000)
+	Hash[10]: 1024 (0x00000400)
+	Hash[11]: 64 (0x00000040)
+TOKEN_ACCESS_INFORMATION.RestrictedSidHash
+	SidCount: 0
+TOKEN_ACCESS_INFORMATION.Privileges.PrivilegeCount: 5
+TOKEN_ACCESS_INFORMATION.Privileges[0].Luid: "Shut down the system"
+TOKEN_ACCESS_INFORMATION.Privileges[0].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[1].Luid: "Bypass traverse checking"
+TOKEN_ACCESS_INFORMATION.Privileges[1].Attributes: SE_PRIVILEGE_ENABLED_BY_DEFAULT | SE_PRIVILEGE_ENABLED (0x00000003)
+TOKEN_ACCESS_INFORMATION.Privileges[2].Luid: "Remove computer from docking station"
+TOKEN_ACCESS_INFORMATION.Privileges[2].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[3].Luid: "Increase a process working set"
+TOKEN_ACCESS_INFORMATION.Privileges[3].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.Privileges[4].Luid: "Change the time zone"
+TOKEN_ACCESS_INFORMATION.Privileges[4].Attributes:  (0x00000000)
+TOKEN_ACCESS_INFORMATION.AuthenticationId.LowPart: 523840151 (0xl1F392A97)
+TOKEN_ACCESS_INFORMATION.AuthenticationId.HighPart: 0 (0x00000000)
+TOKEN_ACCESS_INFORMATION.TokenType: TokenImpersonation
+TOKEN_ACCESS_INFORMATION.ImpersonationLevel: SecurityDelegation
+TOKEN_ACCESS_INFORMATION.MandatoryPolicy.Policy: TOKEN_MANDATORY_POLICY_NO_WRITE_UP | TOKEN_MANDATORY_POLICY_NEW_PROCESS_MIN
+TOKEN_ACCESS_INFORMATION.Flags: 2560 (0x00000A00)
+
+TokenVirtualizationAllowed: 1 (0x00000001)
+
+TokenVirtualizationEnabled: 0 (0x00000000)
+
+TOKEN_MANDATORY_LABEL.Label
+	Sid: S-1-16-8192
+	Sid: Mandatory Label\Medium Mandatory Level (SidTypeLabel)
+	Attributes: SE_GROUP_INTEGRITY | SE_GROUP_INTEGRITY_ENABLED (0x00000060)
+
+TokenUIAccess: 0 (0x00000000)
+
+TOKEN_MANDATORY_POLICY.Policy: TOKEN_MANDATORY_POLICY_NO_WRITE_UP | TOKEN_MANDATORY_POLICY_NEW_PROCESS_MIN (0x00000003)
+
+TokenLogonSid
+	Sid: S-1-3558414848
+
+CTRL_C_EVENT seen.
+Stop event is signalled - exiting.
+CTestObject::~CTestObject - 0x001A1990

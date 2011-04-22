@@ -1,0 +1,10 @@
+; TestObjectSvr.def : Declares the module parameters.
+
+LIBRARY      "TestObjectSvr.DLL"
+
+EXPORTS
+	DllCanUnloadNow		PRIVATE
+	DllGetClassObject	PRIVATE
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE
+	DllInstall		PRIVATE

@@ -1,0 +1,38 @@
+// TestObjectSvr.idl : IDL source for TestObjectSvr
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (TestObjectSvr.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(B77E9294-326C-495F-966C-2783DE93A0FD),
+	dual,
+	nonextensible,
+	helpstring("ITestObject Interface"),
+	pointer_default(unique)
+]
+interface ITestObject : IDispatch{
+	[id(1), helpstring("method DumpToken")] HRESULT DumpToken(void);
+};
+
+[
+	uuid(DE354E42-43FC-4C6D-A8A5-28410EC97734),
+	version(1.0),
+	helpstring("TestObjectSvr 1.0 Type Library")
+]
+library TestObjectSvrLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(E3D5BF29-E778-4A0A-A4F4-1C4E76D625FA),
+		helpstring("TestObject Class")
+	]
+	coclass TestObject
+	{
+		[default] interface ITestObject;
+	};
+};
